@@ -130,42 +130,36 @@ function dressData(locations, transactions) {
     // }
 
     transactions.forEach((transaction, i) => {
-        // if (i > 5) return;
-
         const meta = {}
 
         // Gather a few data points
-        meta.descriptor = transaction.Description.replace(/\s+/g, ' ');
-        let state = meta.descriptor.slice(-3).match(/\s{1}\D{2}/g);
-        let merchant = meta.descriptor;
-        // let channel = meda.descriptor
-        // const tokens = meta.descriptor.trim().split(/\s+/g);
+        let descriptor = transaction.Description.replace(/\s+/g, ' ');
+        let state = descriptor.slice(-3).match(/\s{1}\D{2}/g);
+        let merchant = descriptor;
 
         // Extract Channel
-        const account = meta.descriptor.match(/X+\d{4,5}/g);
-        const ach = meta.descriptor.match(/^ACH\s.\D/);
-        const achRecurring = meta.descriptor.match(/^ACH WEB-RECUR\s+[a-zA-Z0-9]+/);
-        const achSingle = meta.descriptor.match(/^ACH WEB-SINGLE\s+[a-zA-Z0-9]+/);
-        const check = meta.descriptor.match(/^CHECK\s+\d{1,3}\s+\d+/);
-        const debit = meta.descriptor.match(/^DEBIT CARD PURCHASE/);
-        const id = meta.descriptor.match(/[a-zA-Z]/);
-        const pos = meta.descriptor.match(/POS[a-zA-Z0-9]+\s+\d+/);   // 1. Check for POS PURCHASE. This almost always occurs @ string index 13
-        const transfer = meta.descriptor.match(/ONLINE TRANSFER/);
-        const regexArr = [ /ACH WEB-RECUR\s+[a-zA-Z0-9]+/, /ACH WEB-RECUR\s+[a-zA-Z0-9]/ ];
+        const channels = {
+            'ACH': /^ACH (CREDIT|DEBIT|WEB\D?RECUR|WEB\D?SINGLE)?\s+[a-zA-Z0-9]+/,
+            'ATM': /^ATM (WITHDRAWAL|DEPOSIT)\sFEE?/,
+            'CHECK': /^CHECK\s+\d+\s+\d+/,
+            'DEBIT CARD PURCHASE': /^DEBIT CARD\s+(PURCHASE)?\s+X{4,5}\d{4,5}/,
+            'ONLINE TRANSFER': /^ONLINE TRANSFER (TO|FROM)?\s+X+\d{4,5}/,
+            'POS': /^(POS (PURCHASE|RETURN)?)?\s+POS[a-zA-Z0-9]+\s+\d+/,
+        }
 
-        if (ach) {
-            meta.channel = 'ACH';
-            // merchant = meta.descriptor.split(pos[0])[1].trim();
-            // console.log(meta.descriptor);
-            merchant = account ? merchant.split(account[0])[1].trim().replace(/\s+/g, ' ') : merchant;
-        } else if (check) {
-            meta.channel = 'CHECK';
-            // merchant = null;
-            return;
-        } else if (pos) {
-            meta.channel = 'POS';
-            merchant = meta.descriptor.split(pos[0])[1].trim();
-        }  
+        Object.keys(channels).forEach((key, i) => {
+            let match = descriptor.match(channels[key]);
+            
+            if (match) {
+                meta.channel = key;
+
+                if (['CHECK', 'ONLINE TRANSFER'].indexOf(key) === -1) {
+                    merchant = merchant.split(match[0])[1].trim();
+                } else {
+                    merchant = '';
+                }
+            }
+        });
 
         // Extract location
         if (state) {
@@ -178,25 +172,39 @@ function dressData(locations, transactions) {
                 .filter(location => location.state_id.toLowerCase() === state.toLowerCase())
                 .find(location => {
                     cityState = location.city.toLowerCase() + ' ' + location.state_id.toLowerCase();
-                    locMatch = meta.descriptor.toLowerCase().match(cityState);
+                    locMatch = merchant.toLowerCase().match(cityState);
                     return locMatch ? locMatch[0] : null;
                 });
 
             if (loc) {
+                merchant = merchant.toLowerCase().replace(loc.city.toLowerCase() + ' ' + loc.state_id.toLowerCase(), '').trim();
                 meta.location = {
                     city: loc.city,
                     lat: loc.lat,
                     lng: loc.lng,
                     state: loc.state_id
                 }
-
-                meta.merchant = {
-                    name: merchant.toLowerCase().replace(loc.city.toLowerCase() + ' ' + loc.state_id.toLowerCase(), '').trim(),
-                    website: null
+            } else {
+                merchant = merchant.slice(0, -2).trim();
+                meta.location = {
+                    state: state
                 }
+            }
+        } else {
+            // console.log('NO LOCATION IS APPLICABLE:', descriptor);
+        }
+
+        // Sometimes there is a state paired with an account number
+        if (merchant) {
+            let acc = merchant.match(/X{4,5}\d{4,5}/);
+
+            if (acc) {
+                merchant = merchant.replace(acc, '').trim();
             }
         }
 
+        console.log(i, merchant);
+        meta.merchant = merchant;
         transaction.meta = meta;
     });
 }
