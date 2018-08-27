@@ -1,6 +1,7 @@
 const csv = require('csvtojson');
 const parseQFXtoJSON = require('ofx-js').parse;
 const fs = require('fs');
+// const w2v = require( 'word2vec' );
 
 const data_1 = './data/input/transactions_debit_1.csv';
 const data_2 = './data/input/transactions_debit_2.csv';
@@ -8,21 +9,7 @@ const data_3 = './data/input/transactions_debit.QFX';
 const locationFile = './data/input/2017_Gaz_place_national.txt';
 const locationFile2 = './data/input/uscitiesv1.4.csv';
 
-let channels = [
-    'ACH',
-    // 'ACH CREDIT',
-    // 'ACH DEBIT',
-    'ATM',
-    'CHECK',
-    'CREDIT',
-    'DEBIT',
-    'DEPOSIT',
-    'ONLINE TRANSFER',
-    'PAYMENT',
-    'POS PURCHASE'
-];
 let locations;
-// let locationsCache = [];
 let transactions;
 
 function init() {
@@ -45,7 +32,12 @@ function formatCSVData(fileLocation) {
             // .fromFile(data_1)
             .fromString(csvParsed)
             .then(jsonData => {
-                dressData(jsonData);
+                // dressData(jsonData);
+
+                // Remove some special characters
+                Object.keys(jsonData).forEach((transaction, i) => {
+                    jsonData[i].Description = jsonData[i].Description.replace('\`', '\'');
+                });
 
                 fs.writeFile('./data/transactions_1.json', JSON.stringify(jsonData, null, 4), null, err => {
                     if (err) throw err;
@@ -130,6 +122,7 @@ function dressData(locations, transactions) {
     // }
 
     transactions.forEach((transaction, i) => {
+        // if (i > 5) return;
         const meta = {}
 
         // Gather a few data points
@@ -190,8 +183,6 @@ function dressData(locations, transactions) {
                     state: state
                 }
             }
-        } else {
-            // console.log('NO LOCATION IS APPLICABLE:', descriptor);
         }
 
         // Sometimes there is a state paired with an account number
@@ -201,16 +192,19 @@ function dressData(locations, transactions) {
             if (acc) {
                 merchant = merchant.replace(acc, '').trim();
             }
+
+        } else {
+            return;
         }
+
+        // Convert merchant words to vectors
+        
+
 
         console.log(i, merchant);
         meta.merchant = merchant;
         transaction.meta = meta;
     });
-}
-
-function levenshteinDistance(a, b) {
-    return a;
 }
 
 // formatQFXData(data_3);
