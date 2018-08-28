@@ -8,19 +8,26 @@ const data_2 = './data/input/transactions_debit_2.csv';
 const data_3 = './data/input/transactions_debit.QFX';
 const locationFile = './data/input/2017_Gaz_place_national.txt';
 const locationFile2 = './data/input/uscitiesv1.4.csv';
+const wordVecsData = './data/input/glove.txt';
 
 let locations;
 let transactions;
+let wordVecs;
 
 function init() {
-    fs.readFile('./data/uscitiesv1.4.json', 'UTF-8', (err, locations) => {
-        if (err) throw err;
-        locations = JSON.parse(locations);
-        
-        fs.readFile('./data/transactions_1.json', 'UTF-8', (err, transactions) => {
-            transactions = JSON.parse(transactions);
+    fs.readFile('./data/glove.json', 'UTF-8', (err, vecs) => {
+        wordVecs = vecs;
+        console.log(vecs);
+
+        fs.readFile('./data/uscitiesv1.4.json', 'UTF-8', (err, locations) => {
+            if (err) throw err;
+            locations = JSON.parse(locations);
             
-            dressData(locations, transactions);
+            fs.readFile('./data/transactions_1.json', 'UTF-8', (err, transactions) => {
+                transactions = JSON.parse(transactions);
+                
+                dressData(locations, transactions);
+            });
         });
     });
 }
@@ -104,6 +111,24 @@ function formatCityData2(locationFile) {
             });
     });
 }
+
+function formatWordVecs(wordVecs) {
+    let wv = [];
+    
+    fs.readFile('./data/input/glove.txt', 'UTF-8', (err, vecs) => {
+        vecs.split(/[\r\n]/).forEach(vec => {
+            let vex = vec.split(/\s+/);
+            let word = vex.shift();
+
+            wv.push({ [word]: vex });
+        });
+
+        fs.writeFile('./data/glove.json', JSON.stringify(wv, null, 4), null, err => {
+            if (err) throw err;
+            console.log('GloVe -> JSON data has been saved!');
+        })
+    });
+}   
 
 function dressData(locations, transactions) {
     // transaction.meta = {
@@ -189,15 +214,18 @@ function dressData(locations, transactions) {
         merchant = merchant.replace(/X{4,5}\d{4,5}/, '').trim();
 
         // Remove franchise numbers
-        merchant = merchant.replace(/(#|-)\s?(\d{1,4})*/, '').trim();
+        merchant = merchant.replace(/(#|-)\s?(\d{1,5})*/, '').trim();
+        merchant = merchant.replace(/\d*$/, '').trim();
 
         // Remove anything .com/.co
         merchant = merchant.replace(/.CO(M)?\/?[A-Z0-9\/]*/, '').trim();
 
-        // Convert words in merchant name to vectors
-        // w2v.word2phrase(input, output, params, callback);
+        // Replace unsubstantial characters
+        merchant = merchant.replace(/\s(-|_)\s/, '').trim();
 
-        console.log(i, merchant);
+        // Convert words in merchant name to vectors
+
+        // console.log(i, merchant);
         meta.merchant = merchant;
         transaction.meta = meta;
     });
@@ -207,4 +235,5 @@ function dressData(locations, transactions) {
 // formatCSVData(data_1);
 // formatCityData(locationFile);
 // formatCityData2(locationFile2);
-init();
+formatWordVecs(wordVecsData);
+// init();
