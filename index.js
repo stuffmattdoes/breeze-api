@@ -1,7 +1,7 @@
 const csv = require('csvtojson');
 const parseQFXtoJSON = require('ofx-js').parse;
 const fs = require('fs');
-// const w2v = require( 'word2vec' );
+const w2v = require('word2vec');
 
 const data_1 = './data/input/transactions_debit_1.csv';
 const data_2 = './data/input/transactions_debit_2.csv';
@@ -128,7 +128,7 @@ function dressData(locations, transactions) {
         // Gather a few data points
         let descriptor = transaction.Description.replace(/\s+/g, ' ');
         let state = descriptor.slice(-3).match(/\s{1}\D{2}/g);
-        let merchant = descriptor;
+        let merchant = descriptor.toUpperCase();
 
         // Extract Channel
         const channels = {
@@ -162,15 +162,15 @@ function dressData(locations, transactions) {
             
             // compare: RICHMOND VA => Richmond city VA
             const loc = locations
-                .filter(location => location.state_id.toLowerCase() === state.toLowerCase())
+                .filter(location => location.state_id.toUpperCase() === state.toUpperCase())
                 .find(location => {
-                    cityState = location.city.toLowerCase() + ' ' + location.state_id.toLowerCase();
-                    locMatch = merchant.toLowerCase().match(cityState);
+                    cityState = location.city.toUpperCase() + ' ' + location.state_id.toUpperCase();
+                    locMatch = merchant.toUpperCase().match(cityState);
                     return locMatch ? locMatch[0] : null;
                 });
 
             if (loc) {
-                merchant = merchant.toLowerCase().replace(loc.city.toLowerCase() + ' ' + loc.state_id.toLowerCase(), '').trim();
+                merchant = merchant.toUpperCase().replace(loc.city.toUpperCase() + ' ' + loc.state_id.toUpperCase(), '').trim();
                 meta.location = {
                     city: loc.city,
                     lat: loc.lat,
@@ -185,21 +185,17 @@ function dressData(locations, transactions) {
             }
         }
 
-        // Sometimes there is a state paired with an account number
-        if (merchant) {
-            let acc = merchant.match(/X{4,5}\d{4,5}/);
+        // Remove residual groupings of Xs and numbers
+        merchant = merchant.replace(/X{4,5}\d{4,5}/, '').trim();
 
-            if (acc) {
-                merchant = merchant.replace(acc, '').trim();
-            }
+        // Remove franchise numbers
+        merchant = merchant.replace(/(#|-)\s?(\d{1,4})*/, '').trim();
 
-        } else {
-            return;
-        }
+        // Remove anything .com/.co
+        merchant = merchant.replace(/.CO(M)?\/?[A-Z0-9\/]*/, '').trim();
 
-        // Convert merchant words to vectors
-        
-
+        // Convert words in merchant name to vectors
+        // w2v.word2phrase(input, output, params, callback);
 
         console.log(i, merchant);
         meta.merchant = merchant;
