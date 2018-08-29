@@ -16,8 +16,7 @@ let wordVecs;
 
 function init() {
     fs.readFile('./data/glove.json', 'UTF-8', (err, vecs) => {
-        wordVecs = vecs;
-        console.log(vecs);
+        wordVecs = JSON.parse(vecs);
 
         fs.readFile('./data/uscitiesv1.4.json', 'UTF-8', (err, locations) => {
             if (err) throw err;
@@ -113,14 +112,17 @@ function formatCityData2(locationFile) {
 }
 
 function formatWordVecs(wordVecs) {
-    let wv = [];
+    // let wv = [];
+    let wv = {};
     
     fs.readFile('./data/input/glove.txt', 'UTF-8', (err, vecs) => {
         vecs.split(/[\r\n]/).forEach(vec => {
-            let vex = vec.split(/\s+/);
-            let word = vex.shift();
+            let vectors = vec.split(/\s+/);
+            let word = vectors.shift();
+            vectors = vectors.map(vector => parseFloat(vector));
 
-            wv.push({ [word]: vex });
+            wv[word] = vectors;
+            // wv.push({ [word]: vectors });
         });
 
         fs.writeFile('./data/glove.json', JSON.stringify(wv, null, 4), null, err => {
@@ -147,7 +149,7 @@ function dressData(locations, transactions) {
     // }
 
     transactions.forEach((transaction, i) => {
-        // if (i > 5) return;
+        if (i > 2) return;
         const meta = {}
 
         // Gather a few data points
@@ -209,23 +211,46 @@ function dressData(locations, transactions) {
                 }
             }
         }
-
+        
         // Remove residual groupings of Xs and numbers
         merchant = merchant.replace(/X{4,5}\d{4,5}/, '').trim();
-
+        
         // Remove franchise numbers
         merchant = merchant.replace(/(#|-)\s?(\d{1,5})*/, '').trim();
         merchant = merchant.replace(/\d*$/, '').trim();
 
         // Remove anything .com/.co
-        merchant = merchant.replace(/.CO(M)?\/?[A-Z0-9\/]*/, '').trim();
+        merchant = merchant.replace(/\.CO(M)?\/?[A-Z0-9\/]*/, '').trim();
 
         // Replace unsubstantial characters
         merchant = merchant.replace(/\s(-|_)\s/, '').trim();
 
-        // Convert words in merchant name to vectors
 
-        // console.log(i, merchant);
+        // #TODO - reference lookup table of most common merchants
+
+
+        // Convert words in merchant name to vectors
+        if (merchant) {
+            let tokens = merchant.toLowerCase().split(' ');
+            let count = 0;
+
+            let mean = tokens
+                .map(token => wordVecs[token])
+                .filter(wordVec => wordVec !== undefined)
+                .reduce((acc, val, i, arr) => {
+                    if (i === 0) return acc;
+
+                    for (let j = 0; j < acc.length; j++) {
+                        acc[j] += val[j];
+                    }
+
+                    count = i + 1;
+
+                    return acc;
+                }, wordVecs[tokens[0]])
+                .map((wordVec, i, arr) => wordVec /= count);
+        }
+
         meta.merchant = merchant;
         transaction.meta = meta;
     });
@@ -235,5 +260,5 @@ function dressData(locations, transactions) {
 // formatCSVData(data_1);
 // formatCityData(locationFile);
 // formatCityData2(locationFile2);
-formatWordVecs(wordVecsData);
-// init();
+// formatWordVecs(wordVecsData);
+init();
