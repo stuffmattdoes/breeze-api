@@ -9,6 +9,7 @@ const data_3 = './data/input/transactions_debit.QFX';
 const locationFile = './data/input/2017_Gaz_place_national.txt';
 const locationFile2 = './data/input/uscitiesv1.4.csv';
 const wordVecsData = './data/input/glove.txt';
+const cosim = require( 'compute-cosine-similarity' );
 
 let locations;
 let transactions;
@@ -116,7 +117,7 @@ function formatWordVecs(wordVecs) {
     let wv = {};
     
     fs.readFile('./data/input/glove.txt', 'UTF-8', (err, vecs) => {
-        vecs.split(/[\r\n]/).forEach(vec => {
+        vecs.trim().split(/[\r\n]/).forEach(vec => {
             let vectors = vec.split(/\s+/);
             let word = vectors.shift();
             vectors = vectors.map(vector => parseFloat(vector));
@@ -249,6 +250,14 @@ function dressData(locations, transactions) {
                     return acc;
                 }, wordVecs[tokens[0]])
                 .map((wordVec, i, arr) => wordVec /= count);
+
+            // Assess the cosine similarity between our merchant vector and corpus vectors
+            let wordVecIndex = Object.keys(wordVecs)
+                .map((vec, i) =>  [ vec, cosim(mean, wordVecs[vec]) ])
+                .sort((a, b) => a[1] > b[1] ? 1 : -1)
+                .reverse();
+
+            console.log(wordVecIndex[0]);
         }
 
         meta.merchant = merchant;
