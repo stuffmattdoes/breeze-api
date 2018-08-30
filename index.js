@@ -221,16 +221,21 @@ function dressData() {
 
         // Convert words in merchant name to vectors & average words together
         if (merchant) {
-            console.log(merchant);
+            // console.log(merchant);
             let mean = vectorizePhrase(merchant);
+            // console.log(mean);
             
             // Assess the cosine similarity between our merchant vector and category vectors
-            let categorize = catVecs
-                .map((catVec, i) =>  [ merchant, catVec.name, cosim(mean, catVec.mean) ])
-                .sort((a, b) => a[2] > b[2] ? 1 : -1)
-                .reverse()[0];
+            if (!mean) {
+                console.log(merchant, '=>', 'Not Categorized');
+            } else {
+                let categorize = catVecs
+                    .map((catVec, i) =>  [ merchant, catVec.name, cosim(mean, catVec.mean) ])
+                    .sort((a, b) => a[2] > b[2] ? 1 : -1)
+                    .reverse()[0];
 
-            // console.log(categorize[0], '=>', categorize[1].name);
+                console.log(merchant, '=>', categorize[1].name);
+            }
         }
 
         meta.merchant = merchant;
@@ -242,20 +247,25 @@ function vectorizePhrase(phrase) {
     let tokens = phrase.toLowerCase().split(/\s+/);
     let count = 0;
 
-    return tokens
+    let tkns = tokens
         .map(token => wordVecs[token])
         .filter(wordVec => wordVec !== undefined)
         .reduce((acc, val, i, arr) => {
             count = i + 1;
-            if (i === 0) return acc;
+            // if (i === 0) return acc;
 
             for (let j = 0; j < acc.length; j++) {
                 acc[j] += val[j];
             }
 
-            return acc;
-        }, wordVecs[tokens[0]])
-        .map((wordVec, i, arr) => wordVec /= count);
+            return acc || [];
+        }, new Array(50).fill(0));
+
+        if (tkns) {
+            tkns = tkns.map((wordVec, i, arr) => wordVec /= count);
+        }
+
+        return tkns;
 }
 
 // formatQFXData(data_3);
