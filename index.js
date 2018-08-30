@@ -138,7 +138,7 @@ function dressData() {
     let catVecs = categories.map(cat => ({ name: cat, mean: vectorizePhrase(cat.name) }));
     
     transactions.forEach((transaction, i) => {
-        if (i > 2) return;
+        // if (i > 2) return;
         const meta = {}
 
 
@@ -221,6 +221,7 @@ function dressData() {
 
         // Convert words in merchant name to vectors & average words together
         if (merchant) {
+            console.log(merchant);
             let mean = vectorizePhrase(merchant);
             
             // Assess the cosine similarity between our merchant vector and category vectors
@@ -229,7 +230,7 @@ function dressData() {
                 .sort((a, b) => a[2] > b[2] ? 1 : -1)
                 .reverse()[0];
 
-            console.log(categorize[0], '=>', categorize[1].name);
+            // console.log(categorize[0], '=>', categorize[1].name);
         }
 
         meta.merchant = merchant;
