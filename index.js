@@ -3,6 +3,7 @@ const parseQFXtoJSON = require('ofx-js').parse;
 const fs = require('fs');
 const w2v = require('word2vec');
 
+// Original data
 const data_1 = './data/input/transactions_debit_1.csv';
 const data_2 = './data/input/transactions_debit_2.csv';
 const data_3 = './data/input/transactions_debit.QFX';
@@ -11,26 +12,11 @@ const locationFile2 = './data/input/uscitiesv1.4.csv';
 const wordVecsData = './data/input/glove.txt';
 const cosim = require( 'compute-cosine-similarity' );
 
-let locations;
-let transactions;
-let wordVecs;
-
-function init() {
-    fs.readFile('./data/glove.json', 'UTF-8', (err, vecs) => {
-        wordVecs = JSON.parse(vecs);
-
-        fs.readFile('./data/uscitiesv1.4.json', 'UTF-8', (err, locations) => {
-            if (err) throw err;
-            locations = JSON.parse(locations);
-            
-            fs.readFile('./data/transactions_1.json', 'UTF-8', (err, transactions) => {
-                transactions = JSON.parse(transactions);
-                
-                dressData(locations, transactions);
-            });
-        });
-    });
-}
+// Formatted data
+const categories = require('./data/categories.json');
+const locations = require('./data/uscitiesv1.4.json');
+const transactions = require('./data/transactions_1.json');
+const wordVecs = require('./data/glove.json');
 
 function formatCSVData(fileLocation) {
     // console.log(fileLocation);
@@ -133,7 +119,7 @@ function formatWordVecs(wordVecs) {
     });
 }   
 
-function dressData(locations, transactions) {
+function dressData() {
     // transaction.meta = {
     //     account: string,
     //     channel: string,
@@ -149,16 +135,23 @@ function dressData(locations, transactions) {
     //     }
     // }
 
+    let catVecs = categories.map(cat => ({ name: cat, mean: vectorizePhrase(cat.name) }));
+    
     transactions.forEach((transaction, i) => {
         if (i > 2) return;
         const meta = {}
+
+
+        // #TODO - reference lookup table of most common merchants to save on computation
+
 
         // Gather a few data points
         let descriptor = transaction.Description.replace(/\s+/g, ' ');
         let state = descriptor.slice(-3).match(/\s{1}\D{2}/g);
         let merchant = descriptor.toUpperCase();
 
-        // Extract Channel
+        // Extract Channel based on specific keywords
+        // #TODO make this work witih more banks than just PNC
         const channels = {
             'ACH': /^ACH (CREDIT|DEBIT|WEB\D?RECUR|WEB\D?SINGLE)?\s+[a-zA-Z0-9]+/,
             'ATM': /^ATM (WITHDRAWAL|DEPOSIT)\sFEE?/,
@@ -226,38 +219,17 @@ function dressData(locations, transactions) {
         // Replace unsubstantial characters
         merchant = merchant.replace(/\s(-|_)\s/, '').trim();
 
-
-        // #TODO - reference lookup table of most common merchants
-
-
-        // Convert words in merchant name to vectors
+        // Convert words in merchant name to vectors & average words together
         if (merchant) {
-            let tokens = merchant.toLowerCase().split(' ');
-            let count = 0;
+            let mean = vectorizePhrase(merchant);
+            
+            // Assess the cosine similarity between our merchant vector and category vectors
+            let categorize = catVecs
+                .map((catVec, i) =>  [ merchant, catVec.name, cosim(mean, catVec.mean) ])
+                .sort((a, b) => a[2] > b[2] ? 1 : -1)
+                .reverse()[0];
 
-            let mean = tokens
-                .map(token => wordVecs[token])
-                .filter(wordVec => wordVec !== undefined)
-                .reduce((acc, val, i, arr) => {
-                    if (i === 0) return acc;
-
-                    for (let j = 0; j < acc.length; j++) {
-                        acc[j] += val[j];
-                    }
-
-                    count = i + 1;
-
-                    return acc;
-                }, wordVecs[tokens[0]])
-                .map((wordVec, i, arr) => wordVec /= count);
-
-            // Assess the cosine similarity between our merchant vector and corpus vectors
-            let wordVecIndex = Object.keys(wordVecs)
-                .map((vec, i) =>  [ vec, cosim(mean, wordVecs[vec]) ])
-                .sort((a, b) => a[1] > b[1] ? 1 : -1)
-                .reverse();
-
-            console.log(wordVecIndex[0]);
+            console.log(categorize[0], '=>', categorize[1].name);
         }
 
         meta.merchant = merchant;
@@ -265,9 +237,29 @@ function dressData(locations, transactions) {
     });
 }
 
+function vectorizePhrase(phrase) {
+    let tokens = phrase.toLowerCase().split(/\s+/);
+    let count = 0;
+
+    return tokens
+        .map(token => wordVecs[token])
+        .filter(wordVec => wordVec !== undefined)
+        .reduce((acc, val, i, arr) => {
+            count = i + 1;
+            if (i === 0) return acc;
+
+            for (let j = 0; j < acc.length; j++) {
+                acc[j] += val[j];
+            }
+
+            return acc;
+        }, wordVecs[tokens[0]])
+        .map((wordVec, i, arr) => wordVec /= count);
+}
+
 // formatQFXData(data_3);
 // formatCSVData(data_1);
 // formatCityData(locationFile);
 // formatCityData2(locationFile2);
 // formatWordVecs(wordVecsData);
-init();
+dressData();

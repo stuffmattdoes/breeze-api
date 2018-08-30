@@ -1,290 +1,264 @@
 [
     {
-        "classification": "General",
         "meta": {
             "emojiSymbol": "🍞",
             "emojiUnicode": "U+1F35E"
         },
         "_id": "5ac99396b3cd825bb5750770",
-        "category": "Food & Drink",
+        "name": "Food & Drink",
         "__v": 0
     },
     {
-        "classification": "General",
         "meta": {
             "emojiSymbol": "🎉",
             "emojiUnicode": "U+1F389"
         },
         "_id": "5ac993a2b3cd825bb5750771",
-        "category": "Fun",
+        "name": "Fun",
         "__v": 0
     },
     {
-        "classification": "General",
         "meta": {
             "emojiSymbol": "🤝",
             "emojiUnicode": "U+1F91D"
         },
         "_id": "5ac993aca26a255bc4643751",
-        "category": "Giving",
+        "name": "Giving",
         "__v": 0
     },
     {
-        "classification": "General",
         "meta": {
             "emojiSymbol": "👤",
             "emojiUnicode": "U+1F464"
         },
         "_id": "5ac993c324a4a85bdad000bd",
-        "category": "Personal",
+        "name": "Personal",
         "__v": 0
     },
     {
-        "classification": "General",
         "meta": {
             "emojiSymbol": "🚗",
             "emojiUnicode": "U+1F697"
         },
         "_id": "5ac993dcaed9e75be6acbb00",
-        "category": "Transportation",
+        "name": "Transportation",
         "__v": 0
     },
     {
-        "classification": "General",
         "meta": {
             "emojiSymbol": "🏷",
             "emojiUnicode": "U+1F3F7"
         },
         "_id": "5ac99414aed9e75be6acbb01",
-        "category": "Uncategorized",
+        "name": "Not Categorized",
         "__v": 0
     },
     {
-        "classification": "General",
         "meta": {
             "emojiSymbol": "💡",
             "emojiUnicode": "U+1F4A1"
         },
         "_id": "5ac9941d64297f5c0ab2da09",
-        "category": "Utilities",
+        "name": "Utilities",
         "__v": 0
     },
     {
-        "classification": "Specific",
         "meta": {
             "emojiSymbol": "🧦",
             "emojiUnicode": "U+1F9E6"
         },
         "_id": "5ac996224d58645d5a598691",
-        "category": "Clothes",
-        "generalId": "5ac993c324a4a85bdad000bd",
+        "name": "Clothes",
+        "parentId": "5ac993c324a4a85bdad000bd",
         "__v": 0
     },
     {
-        "classification": "Specific",
         "meta": {
             "emojiSymbol": "💳",
             "emojiUnicode": "U+1F4B3"
         },
         "_id": "5ac996a0ed021a5da63757e5",
-        "category": "Credit Card",
-        "generalId": "5ac9993ca0020a5fa6e7e310",
+        "name": "Credit Card",
+        "parentId": "5ac9993ca0020a5fa6e7e310",
         "__v": 0
     },
     {
-        "classification": "Specific",
         "meta": {
             "emojiSymbol": "🔌",
             "emojiUnicode": "U+1F50C"
         },
         "_id": "5ac996bdda24b35db61e0730",
-        "category": "Electric",
-        "generalId": "5ac9941d64297f5c0ab2da09",
+        "name": "Electric",
+        "parentId": "5ac9941d64297f5c0ab2da09",
         "__v": 0
     },
     {
-        "classification": "Specific",
         "meta": {
             "emojiSymbol": "⛽",
             "emojiUnicode": "U+26FD"
         },
         "_id": "5ac997713cdc205e286eab7e",
-        "category": "Gas & Fuel",
-        "generalId": "5ac993dcaed9e75be6acbb00",
+        "name": "Gas & Fuel",
+        "parentId": "5ac993dcaed9e75be6acbb00",
         "__v": 0
     },
     {
-        "classification": "Specific",
         "meta": {
             "emojiSymbol": "🛁",
             "emojiUnicode": "U+1F6C1"
         },
         "_id": "5ac997b60e3df55e4a3d22aa",
-        "category": "Home & Hygiene",
-        "generalId": "5ac993c324a4a85bdad000bd",
+        "name": "Home & Hygiene",
+        "parentId": "5ac993c324a4a85bdad000bd",
         "__v": 0
     },
     {
-        "classification": "General",
+        
         "meta": {
             "emojiSymbol": "🗜",
             "emojiUnicode": "U+1F5DC"
         },
         "_id": "5ac9993ca0020a5fa6e7e310",
-        "category": "Debt",
+        "name": "Debt",
         "__v": 0
     },
     {
-        "classification": "Specific",
         "meta": {
             "emojiSymbol": "🔥",
             "emojiUnicode": "U+1F525"
         },
         "_id": "5ac99b79ef512660f7b2f0a1",
-        "category": "Gas",
-        "generalId": "5ac9941d64297f5c0ab2da09",
+        "name": "Gas",
+        "parentId": "5ac9941d64297f5c0ab2da09",
         "__v": 0
     },
     {
-        "classification": "Specific",
         "meta": {
             "emojiSymbol": "🍎",
             "emojiUnicode": "U+1F34E"
         },
         "_id": "5ac99b98ef512660f7b2f0a2",
-        "category": "Groceries",
-        "generalId": "5ac99396b3cd825bb5750770",
+        "name": "Groceries",
+        "parentId": "5ac99396b3cd825bb5750770",
         "__v": 0
     },
     {
-        "classification": "Specific",
         "meta": {
             "emojiSymbol": "🌐",
             "emojiUnicode": "U+1F310"
         },
         "_id": "5ac99bc8550967611bf671ff",
-        "category": "Internet",
-        "generalId": "5ac9941d64297f5c0ab2da09",
+        "name": "Internet",
+        "parentId": "5ac9941d64297f5c0ab2da09",
         "__v": 0
     },
     {
-        "classification": "Specific",
         "meta": {
             "emojiSymbol": "🍕",
             "emojiUnicode": "U+1F355"
         },
         "_id": "5ac99bdc550967611bf67200",
-        "category": "On the Go",
-        "generalId": "5ac99396b3cd825bb5750770",
+        "name": "On the Go",
+        "parentId": "5ac99396b3cd825bb5750770",
         "__v": 0
     },
     {
-        "classification": "Specific",
         "meta": {
             "emojiSymbol": "📱",
             "emojiUnicode": "U+1F4F1"
         },
         "_id": "5ac99c01063c33613bdfa393",
-        "category": "Phone",
-        "generalId": "5ac9941d64297f5c0ab2da09",
+        "name": "Phone",
+        "parentId": "5ac9941d64297f5c0ab2da09",
         "__v": 0
     },
     {
-        "classification": "Specific",
         "meta": {
             "emojiSymbol": "🏠",
             "emojiUnicode": "U+1F3E0"
         },
         "_id": "5ac99c112f4c8b61476f0916",
-        "category": "Rent",
-        "generalId": "5ac9941d64297f5c0ab2da09",
+        "name": "Rent",
+        "parentId": "5ac9941d64297f5c0ab2da09",
         "__v": 0
     },
     {
-        "classification": "Specific",
         "meta": {
             "emojiSymbol": "📜",
             "emojiUnicode": "U+1F4DC"
         },
         "_id": "5ac99c5d4bd7d66161dbbd97",
-        "category": "Student Loans",
-        "generalId": "5ac9993ca0020a5fa6e7e310",
+        "name": "Student Loans",
+        "parentId": "5ac9993ca0020a5fa6e7e310",
         "__v": 0
     },
     {
-        "classification": "Specific",
         "meta": {
             "emojiSymbol": "🗑",
             "emojiUnicode": "U+1F5D1"
         },
         "_id": "5ac99c754bd7d66161dbbd98",
-        "category": "Trash Service",
-        "generalId": "5ac9941d64297f5c0ab2da09",
+        "name": "Trash Service",
+        "parentId": "5ac9941d64297f5c0ab2da09",
         "__v": 0
     },
     {
-        "classification": "Specific",
         "meta": {
             "emojiSymbol": "💧",
             "emojiUnicode": "U+1F4A7"
         },
         "_id": "5ac99cca079818617e01b3d3",
-        "category": "Water",
-        "generalId": "5ac9941d64297f5c0ab2da09",
+        "name": "Water",
+        "parentId": "5ac9941d64297f5c0ab2da09",
         "__v": 0
     },
     {
-        "classification": "Specific",
         "meta": {
             "emojiSymbol": "🔧",
             "emojiUnicode": "U+1F527"
         },
         "_id": "5ac9b0803f3a4665f0e1edb1",
-        "category": "Maintenance",
-        "generalId": "5ac993dcaed9e75be6acbb00",
+        "name": "Maintenance",
+        "parentId": "5ac993dcaed9e75be6acbb00",
         "__v": 0
     },
     {
-        "classification": "Specific",
         "meta": {
             "emojiSymbol": "🚙",
             "emojiUnicode": "U+1F699"
         },
         "_id": "5ac9b1663f3a4665f0e1edb2",
-        "category": "Car Payment",
-        "generalId": "5ac9993ca0020a5fa6e7e310",
+        "name": "Car Payment",
+        "parentId": "5ac9993ca0020a5fa6e7e310",
         "__v": 0
     },
     {
-        "classification": "Specific",
         "meta": {
             "emojiSymbol": "🎁",
             "emojiUnicode": "U+1F381"
         },
         "_id": "5ac9b1be3f3a4665f0e1edb3",
-        "category": "Gifts",
-        "generalId": "5ac993aca26a255bc4643751",
+        "name": "Gifts",
+        "parentId": "5ac993aca26a255bc4643751",
         "__v": 0
     },
     {
-        "classification": "Specific",
         "meta": {
             "emojiSymbol": "🙏",
             "emojiUnicode": "U+1F64F"
         },
         "_id": "5ac9b24d3f3a4665f0e1edb4",
-        "category": "Charitable Donations",
-        "generalId": "5ac993aca26a255bc4643751",
+        "name": "Charitable Donations",
+        "parentId": "5ac993aca26a255bc4643751",
         "__v": 0
     },
     {
-        "classification": "General",
         "meta": {
             "emojiSymbol": "💸",
             "emojiUnicode": "U+1F4B8"
         },
         "_id": "5aced23bc8fc5e13160c8030",
-        "category": "Paycheck",
+        "name": "Paycheck",
         "__v": 0
     }
 ]
