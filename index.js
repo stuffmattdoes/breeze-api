@@ -1,7 +1,6 @@
 const csv = require('csvtojson');
 const parseQFXtoJSON = require('ofx-js').parse;
 const fs = require('fs');
-const w2v = require('word2vec');
 
 // Original data
 const data_1 = './data/input/transactions_debit_1.csv';
@@ -10,7 +9,6 @@ const data_3 = './data/input/transactions_debit.QFX';
 const locationFile = './data/input/2017_Gaz_place_national.txt';
 const locationFile2 = './data/input/uscitiesv1.4.csv';
 const wordVecsData = './data/input/glove.txt';
-const cosim = require( 'compute-cosine-similarity' );
 
 // Formatted data
 const categories = require('./data/categories.json');
@@ -230,7 +228,7 @@ function dressData() {
                 console.log(merchant, '=>', 'Not Categorized');
             } else {
                 let categorize = catVecs
-                    .map((catVec, i) =>  [ merchant, catVec.name, cosim(mean, catVec.mean) ])
+                    .map((catVec, i) =>  [ merchant, catVec.name, similarity(mean, catVec.mean) ])
                     .sort((a, b) => a[2] > b[2] ? 1 : -1)
                     .reverse()[0];
 
@@ -266,6 +264,31 @@ function vectorizePhrase(phrase) {
         }
 
         return tkns;
+}
+
+function dotproduct(a,b) {
+    let n = 0;
+    let lim = Math.min(a.length,b.length);
+    
+    for (let i = 0; i < lim; i++) {
+        n += a[i] * b[i];
+    }
+
+    return n;
+ }
+
+function norm2(a) {
+    let sumsqr = 0;
+    
+    for (let i = 0; i < a.length; i++) { 
+        sumsqr += a[i]*a[i];    
+    }
+
+    return Math.sqrt(sumsqr);
+}
+
+function similarity(a, b) {
+    return dotproduct(a,b)/norm2(a)/norm2(b);
 }
 
 // formatQFXData(data_3);
