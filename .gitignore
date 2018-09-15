@@ -1,4 +1,10 @@
-node_modules
+# Seed data
 data/input/glove.42B.300d.txt
 data/input/glove.840B.300d.txt
 data/input/wiki-100k.txt
+
+# Logs
+logs
+
+# Dev modules
+node_modules
