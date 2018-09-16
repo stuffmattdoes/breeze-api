@@ -114,10 +114,17 @@ function categorize(transaction) {
     if (merchant) {
         let mean = vectorizePhrase(merchant);
         
+        // if (merchant === '') {
+        //     console.log('NOPE');
+        // }
+        
         // Assess the cosine similarity between our merchant vector and category vectors
         if (mean) {
             let categorize = categories
-                .map((category, i) => [ merchant, category, similarity(mean, category.vectors) ])
+                .map((category, i) => {
+                    // console.log(i, category);
+                    return [ merchant, category, similarity(mean, category.vex) ];
+                })
                 .sort((a, b) => a[2] > b[2] ? 1 : -1)
                 .reverse()[0];
 
