@@ -8,3 +8,6 @@ logs
 
 # Dev modules
 node_modules
+
+# Temporary file
+tmp

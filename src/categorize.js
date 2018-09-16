@@ -3,11 +3,12 @@ const categories = require('../data/categories.json');
 const locations = require('../data/uscitiesv1.4.json');
 const wordVecs = require('../data/glove.demo.json');
 
-function categorize(transaction, index) {
+function categorize(transaction) {
     let nextTransaction = {
         amount: null,
+        category: null,
         channel: null,
-        currencY: 'USD',
+        currency: 'USD',
         date: transaction.Date,
         descriptor: transaction.Description,
         location: {
@@ -42,16 +43,22 @@ function categorize(transaction, index) {
         'POS': /^(POS (PURCHASE|RETURN)?)?\s+POS[a-zA-Z0-9]+\s+\d+/,
     }
 
-    Object.keys(channels).forEach((key, i) => {
-        let match = descriptor.match(channels[key]);
+    // Extract channel
+    Object.keys(channels).forEach((channel, i) => {
+        let match = descriptor.match(channels[channel]);
         
         if (match) {
-            nextTransaction.channel = key;
+            nextTransaction.channel = channel;
 
-            if (['CHECK', 'ONLINE TRANSFER'].indexOf(key) === -1) {
-                merchant = merchant.split(match[0])[1].trim();
-            } else {
-                merchant = '';
+            switch(channel) {
+                case 'CHECK':
+                    nextTransaction.category = '5ac99414aed9e75be6acbb01';  // Not Categorized
+                    break;    
+                case 'ONLINE TRANSFER':
+                    nextTransaction.category = '5ac9b24d3f3b4665f3e1edb5';  // Bank Transfer
+                    break;
+                default:
+                    merchant = merchant.split(match[0])[1].trim();
             }
         }
     });
@@ -107,17 +114,18 @@ function categorize(transaction, index) {
         // Assess the cosine similarity between our merchant vector and category vectors
         if (mean) {
             let categorize = categories
-                .map((category, i) => [ merchant, category.name, similarity(mean, category.vectors) ])
+                .map((category, i) => [ merchant, category, similarity(mean, category.vectors) ])
                 .sort((a, b) => a[2] > b[2] ? 1 : -1)
                 .reverse()[0];
 
-                transaction.Category = categorize[1]._id;
+            nextTransaction.category = categorize[1]._id;
         } else {
-            transaction.Category = '5ac99414aed9e75be6acbb01';
+            nextTransaction.category = '5ac99414aed9e75be6acbb01';
         }
     }
 
-    nextTransaction.merchant = merchant;    
+    nextTransaction.merchant = merchant;
+
     return nextTransaction;
 }
 

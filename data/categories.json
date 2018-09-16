@@ -1,14 +1,12 @@
 [
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "🍞",
-                "emojiUnicode": "U+1F35E"
-            },
-            "_id": "5ac99396b3cd825bb5750770",
-            "name": "Food & Drink",
-            "__v": 0
+        "emoji": {
+            "symbol": "🍞",
+            "unicode": "U+1F35E"
         },
+        "_id": "5ac99396b3cd825bb5750770",
+        "name": "Food & Drink",
+        "__v": 0,
         "vectors": [
             -0.1367445,
             -0.885197,
@@ -63,15 +61,13 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "🎉",
-                "emojiUnicode": "U+1F389"
-            },
-            "_id": "5ac993a2b3cd825bb5750771",
-            "name": "Fun",
-            "__v": 0
+        "emoji": {
+            "symbol": "🎉",
+            "unicode": "U+1F389"
         },
+        "_id": "5ac993a2b3cd825bb5750771",
+        "name": "Fun",
+        "__v": 0,
         "vectors": [
             -0.177665,
             0.734821,
@@ -126,15 +122,13 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "🤝",
-                "emojiUnicode": "U+1F91D"
-            },
-            "_id": "5ac993aca26a255bc4643751",
-            "name": "Giving",
-            "__v": 0
+        "emoji": {
+            "symbol": "🤝",
+            "unicode": "U+1F91D"
         },
+        "_id": "5ac993aca26a255bc4643751",
+        "name": "Giving",
+        "__v": 0,
         "vectors": [
             -0.686242,
             -0.939092,
@@ -189,15 +183,13 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "👤",
-                "emojiUnicode": "U+1F464"
-            },
-            "_id": "5ac993c324a4a85bdad000bd",
-            "name": "Personal",
-            "__v": 0
+        "emoji": {
+            "symbol": "👤",
+            "unicode": "U+1F464"
         },
+        "_id": "5ac993c324a4a85bdad000bd",
+        "name": "Personal",
+        "__v": 0,
         "vectors": [
             0.464159,
             -0.913047,
@@ -252,15 +244,13 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "🚗",
-                "emojiUnicode": "U+1F697"
-            },
-            "_id": "5ac993dcaed9e75be6acbb00",
-            "name": "Transportation",
-            "__v": 0
+        "emoji": {
+            "symbol": "🚗",
+            "unicode": "U+1F697"
         },
+        "_id": "5ac993dcaed9e75be6acbb00",
+        "name": "Transportation",
+        "__v": 0,
         "vectors": [
             0.952625,
             -0.331946,
@@ -315,15 +305,13 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "🏷",
-                "emojiUnicode": "U+1F3F7"
-            },
-            "_id": "5ac99414aed9e75be6acbb01",
-            "name": "Not Categorized",
-            "__v": 0
+        "emoji": {
+            "symbol": "🏷",
+            "unicode": "U+1F3F7"
         },
+        "_id": "5ac99414aed9e75be6acbb01",
+        "name": "Not Categorized",
+        "__v": 0,
         "vectors": [
             -0.0887185,
             -0.6859135,
@@ -378,15 +366,13 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "💡",
-                "emojiUnicode": "U+1F4A1"
-            },
-            "_id": "5ac9941d64297f5c0ab2da09",
-            "name": "Utilities",
-            "__v": 0
+        "emoji": {
+            "symbol": "💡",
+            "unicode": "U+1F4A1"
         },
+        "_id": "5ac9941d64297f5c0ab2da09",
+        "name": "Utilities",
+        "__v": 0,
         "vectors": [
             0.332094,
             0.889627,
@@ -441,16 +427,14 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "🧦",
-                "emojiUnicode": "U+1F9E6"
-            },
-            "_id": "5ac996224d58645d5a598691",
-            "name": "Clothes",
-            "parentId": "5ac993c324a4a85bdad000bd",
-            "__v": 0
+        "emoji": {
+            "symbol": "🧦",
+            "unicode": "U+1F9E6"
         },
+        "_id": "5ac996224d58645d5a598691",
+        "name": "Clothes",
+        "parentId": "5ac993c324a4a85bdad000bd",
+        "__v": 0,
         "vectors": [
             -0.136063,
             0.196624,
@@ -505,16 +489,14 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "💳",
-                "emojiUnicode": "U+1F4B3"
-            },
-            "_id": "5ac996a0ed021a5da63757e5",
-            "name": "Credit Card",
-            "parentId": "5ac9993ca0020a5fa6e7e310",
-            "__v": 0
+        "emoji": {
+            "symbol": "💳",
+            "unicode": "U+1F4B3"
         },
+        "_id": "5ac996a0ed021a5da63757e5",
+        "name": "Credit Card",
+        "parentId": "5ac9993ca0020a5fa6e7e310",
+        "__v": 0,
         "vectors": [
             -1.32327,
             -0.42666249999999994,
@@ -569,16 +551,14 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "🔌",
-                "emojiUnicode": "U+1F50C"
-            },
-            "_id": "5ac996bdda24b35db61e0730",
-            "name": "Electric",
-            "parentId": "5ac9941d64297f5c0ab2da09",
-            "__v": 0
+        "emoji": {
+            "symbol": "🔌",
+            "unicode": "U+1F50C"
         },
+        "_id": "5ac996bdda24b35db61e0730",
+        "name": "Electric",
+        "parentId": "5ac9941d64297f5c0ab2da09",
+        "__v": 0,
         "vectors": [
             0.951794,
             -0.698173,
@@ -633,16 +613,14 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "⛽",
-                "emojiUnicode": "U+26FD"
-            },
-            "_id": "5ac997713cdc205e286eab7e",
-            "name": "Gas & Fuel",
-            "parentId": "5ac993dcaed9e75be6acbb00",
-            "__v": 0
+        "emoji": {
+            "symbol": "⛽",
+            "unicode": "U+26FD"
         },
+        "_id": "5ac997713cdc205e286eab7e",
+        "name": "Gas & Fuel",
+        "parentId": "5ac993dcaed9e75be6acbb00",
+        "__v": 0,
         "vectors": [
             0.8287329999999999,
             -1.016858,
@@ -697,16 +675,14 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "🛁",
-                "emojiUnicode": "U+1F6C1"
-            },
-            "_id": "5ac997b60e3df55e4a3d22aa",
-            "name": "Home & Hygiene",
-            "parentId": "5ac993c324a4a85bdad000bd",
-            "__v": 0
+        "emoji": {
+            "symbol": "🛁",
+            "unicode": "U+1F6C1"
         },
+        "_id": "5ac997b60e3df55e4a3d22aa",
+        "name": "Home & Hygiene",
+        "parentId": "5ac993c324a4a85bdad000bd",
+        "__v": 0,
         "vectors": [
             0.020946499999999993,
             -0.5300955,
@@ -761,15 +737,13 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "🗜",
-                "emojiUnicode": "U+1F5DC"
-            },
-            "_id": "5ac9993ca0020a5fa6e7e310",
-            "name": "Debt",
-            "__v": 0
+        "emoji": {
+            "symbol": "🗜",
+            "unicode": "U+1F5DC"
         },
+        "_id": "5ac9993ca0020a5fa6e7e310",
+        "name": "Debt",
+        "__v": 0,
         "vectors": [
             -0.589374,
             -0.15718,
@@ -824,16 +798,14 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "🔥",
-                "emojiUnicode": "U+1F525"
-            },
-            "_id": "5ac99b79ef512660f7b2f0a1",
-            "name": "Gas",
-            "parentId": "5ac9941d64297f5c0ab2da09",
-            "__v": 0
+        "emoji": {
+            "symbol": "🔥",
+            "unicode": "U+1F525"
         },
+        "_id": "5ac99b79ef512660f7b2f0a1",
+        "name": "Gas",
+        "parentId": "5ac9941d64297f5c0ab2da09",
+        "__v": 0,
         "vectors": [
             0.393247,
             -1.06584,
@@ -888,16 +860,14 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "🍎",
-                "emojiUnicode": "U+1F34E"
-            },
-            "_id": "5ac99b98ef512660f7b2f0a2",
-            "name": "Groceries",
-            "parentId": "5ac99396b3cd825bb5750770",
-            "__v": 0
+        "emoji": {
+            "symbol": "🍎",
+            "unicode": "U+1F34E"
         },
+        "_id": "5ac99b98ef512660f7b2f0a2",
+        "name": "Groceries",
+        "parentId": "5ac99396b3cd825bb5750770",
+        "__v": 0,
         "vectors": [
             0.412937,
             0.358568,
@@ -952,16 +922,14 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "🌐",
-                "emojiUnicode": "U+1F310"
-            },
-            "_id": "5ac99bc8550967611bf671ff",
-            "name": "Internet",
-            "parentId": "5ac9941d64297f5c0ab2da09",
-            "__v": 0
+        "emoji": {
+            "symbol": "🌐",
+            "unicode": "U+1F310"
         },
+        "_id": "5ac99bc8550967611bf671ff",
+        "name": "Internet",
+        "parentId": "5ac9941d64297f5c0ab2da09",
+        "__v": 0,
         "vectors": [
             0.181256,
             -0.04684,
@@ -1016,16 +984,14 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "🍕",
-                "emojiUnicode": "U+1F355"
-            },
-            "_id": "5ac99bdc550967611bf67200",
-            "name": "On the Go",
-            "parentId": "5ac99396b3cd825bb5750770",
-            "__v": 0
+        "emoji": {
+            "symbol": "🍕",
+            "unicode": "U+1F355"
         },
+        "_id": "5ac99bdc550967611bf67200",
+        "name": "On the Go",
+        "parentId": "5ac99396b3cd825bb5750770",
+        "__v": 0,
         "vectors": [
             -0.5238976666666667,
             -1.8357023333333335,
@@ -1080,16 +1046,14 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "📱",
-                "emojiUnicode": "U+1F4F1"
-            },
-            "_id": "5ac99c01063c33613bdfa393",
-            "name": "Phone",
-            "parentId": "5ac9941d64297f5c0ab2da09",
-            "__v": 0
+        "emoji": {
+            "symbol": "📱",
+            "unicode": "U+1F4F1"
         },
+        "_id": "5ac99c01063c33613bdfa393",
+        "name": "Phone",
+        "parentId": "5ac9941d64297f5c0ab2da09",
+        "__v": 0,
         "vectors": [
             0.490674,
             0.284289,
@@ -1144,16 +1108,14 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "🏠",
-                "emojiUnicode": "U+1F3E0"
-            },
-            "_id": "5ac99c112f4c8b61476f0916",
-            "name": "Rent",
-            "parentId": "5ac9941d64297f5c0ab2da09",
-            "__v": 0
+        "emoji": {
+            "symbol": "🏠",
+            "unicode": "U+1F3E0"
         },
+        "_id": "5ac99c112f4c8b61476f0916",
+        "name": "Rent",
+        "parentId": "5ac9941d64297f5c0ab2da09",
+        "__v": 0,
         "vectors": [
             -0.216113,
             0.716356,
@@ -1208,16 +1170,14 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "📜",
-                "emojiUnicode": "U+1F4DC"
-            },
-            "_id": "5ac99c5d4bd7d66161dbbd97",
-            "name": "Student Loans",
-            "parentId": "5ac9993ca0020a5fa6e7e310",
-            "__v": 0
+        "emoji": {
+            "symbol": "📜",
+            "unicode": "U+1F4DC"
         },
+        "_id": "5ac99c5d4bd7d66161dbbd97",
+        "name": "Student Loans",
+        "parentId": "5ac9993ca0020a5fa6e7e310",
+        "__v": 0,
         "vectors": [
             -0.3311825,
             -0.15744199999999997,
@@ -1272,16 +1232,14 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "🗑",
-                "emojiUnicode": "U+1F5D1"
-            },
-            "_id": "5ac99c754bd7d66161dbbd98",
-            "name": "Trash Service",
-            "parentId": "5ac9941d64297f5c0ab2da09",
-            "__v": 0
+        "emoji": {
+            "symbol": "🗑",
+            "unicode": "U+1F5D1"
         },
+        "_id": "5ac99c754bd7d66161dbbd98",
+        "name": "Trash Service",
+        "parentId": "5ac9941d64297f5c0ab2da09",
+        "__v": 0,
         "vectors": [
             0.27526649999999997,
             0.037975499999999995,
@@ -1336,16 +1294,14 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "💧",
-                "emojiUnicode": "U+1F4A7"
-            },
-            "_id": "5ac99cca079818617e01b3d3",
-            "name": "Water",
-            "parentId": "5ac9941d64297f5c0ab2da09",
-            "__v": 0
+        "emoji": {
+            "symbol": "💧",
+            "unicode": "U+1F4A7"
         },
+        "_id": "5ac99cca079818617e01b3d3",
+        "name": "Water",
+        "parentId": "5ac9941d64297f5c0ab2da09",
+        "__v": 0,
         "vectors": [
             -0.149524,
             -1.634279,
@@ -1400,16 +1356,14 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "🔧",
-                "emojiUnicode": "U+1F527"
-            },
-            "_id": "5ac9b0803f3a4665f0e1edb1",
-            "name": "Maintenance",
-            "parentId": "5ac993dcaed9e75be6acbb00",
-            "__v": 0
+        "emoji": {
+            "symbol": "🔧",
+            "unicode": "U+1F527"
         },
+        "_id": "5ac9b0803f3a4665f0e1edb1",
+        "name": "Maintenance",
+        "parentId": "5ac993dcaed9e75be6acbb00",
+        "__v": 0,
         "vectors": [
             0.595955,
             0.214722,
@@ -1464,16 +1418,14 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "🚙",
-                "emojiUnicode": "U+1F699"
-            },
-            "_id": "5ac9b1663f3a4665f0e1edb2",
-            "name": "Car Payment",
-            "parentId": "5ac9993ca0020a5fa6e7e310",
-            "__v": 0
+        "emoji": {
+            "symbol": "🚙",
+            "unicode": "U+1F699"
         },
+        "_id": "5ac9b1663f3a4665f0e1edb2",
+        "name": "Car Payment",
+        "parentId": "5ac9993ca0020a5fa6e7e310",
+        "__v": 0,
         "vectors": [
             -0.14152700000000001,
             -0.0965815,
@@ -1528,16 +1480,14 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "🎁",
-                "emojiUnicode": "U+1F381"
-            },
-            "_id": "5ac9b1be3f3a4665f0e1edb3",
-            "name": "Gifts",
-            "parentId": "5ac993aca26a255bc4643751",
-            "__v": 0
+        "emoji": {
+            "symbol": "🎁",
+            "unicode": "U+1F381"
         },
+        "_id": "5ac9b1be3f3a4665f0e1edb3",
+        "name": "Gifts",
+        "parentId": "5ac993aca26a255bc4643751",
+        "__v": 0,
         "vectors": [
             -0.193474,
             0.210541,
@@ -1592,16 +1542,14 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "🙏",
-                "emojiUnicode": "U+1F64F"
-            },
-            "_id": "5ac9b24d3f3a4665f0e1edb4",
-            "name": "Charitable Donations",
-            "parentId": "5ac993aca26a255bc4643751",
-            "__v": 0
+        "emoji": {
+            "symbol": "🙏",
+            "unicode": "U+1F64F"
         },
+        "_id": "5ac9b24d3f3a4665f0e1edb4",
+        "name": "Charitable Donations",
+        "parentId": "5ac993aca26a255bc4643751",
+        "__v": 0,
         "vectors": [
             -0.23460749999999997,
             -0.062083499999999986,
@@ -1656,15 +1604,13 @@
         ]
     },
     {
-        "name": {
-            "meta": {
-                "emojiSymbol": "💸",
-                "emojiUnicode": "U+1F4B8"
-            },
-            "_id": "5aced23bc8fc5e13160c8030",
-            "name": "Paycheck",
-            "__v": 0
+        "emoji": {
+            "symbol": "💸",
+            "unicode": "U+1F4B8"
         },
+        "_id": "5aced23bc8fc5e13160c8030",
+        "name": "Paycheck",
+        "__v": 0,
         "vectors": [
             -0.002782,
             0.311698,
@@ -1716,6 +1662,67 @@
             0.218703,
             0.098584,
             -0.291221
+        ]
+    },
+    {
+        "emoji": {
+            "symbol": "🏛",
+            "unicode": "U+1F3DB"
+        },
+        "_id": "5ac9b24d3f3b4665f3e1edb5",
+        "name": "Bank Transfer",
+        "__v": 0,
+        "vectors": [
+            -0.8329185,
+            -0.7581990000000001,
+            0.2307295,
+            0.07577500000000001,
+            0.651564,
+            -0.088917,
+            -0.2793335,
+            0.27772050000000004,
+            -0.4860415,
+            0.4322225,
+            0.11064,
+            0.246239,
+            0.15235999999999997,
+            -0.917934,
+            -0.5018075,
+            -0.2849165,
+            0.4953345,
+            -1.3099205,
+            0.149665,
+            -0.10711100000000001,
+            -1.029579,
+            -0.645001,
+            0.5196565,
+            0.222908,
+            0.358278,
+            0.32614699999999996,
+            -0.5797095,
+            -0.4107755,
+            -0.3214435,
+            0.32953699999999997,
+            -0.18772250000000001,
+            -0.2582855,
+            -0.07832549999999999,
+            0.3972285,
+            -0.418142,
+            -0.6857575,
+            -0.611272,
+            -0.3939675,
+            -0.6258275,
+            -0.3208985,
+            0.7702435000000001,
+            0.1194115,
+            0.1886025,
+            -0.601018,
+            -0.5820215,
+            -0.303376,
+            0.0938755,
+            -0.6554845,
+            -0.007028999999999994,
+            0.151756
         ]
     }
 ]
