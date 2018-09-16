@@ -3,18 +3,28 @@ const parseQFXtoJSON = require('ofx-js').parse;
 const fs = require('fs');
 
 // Original data
-const data_1 = './data/input/transactions_debit_1.csv';
-const data_2 = './data/input/transactions_debit_2.csv';
-const data_3 = './data/input/transactions_debit.QFX';
-const locationFile = './data/input/2017_Gaz_place_national.txt';
-const locationFile2 = './data/input/uscitiesv1.4.csv';
-const wordVecsData = './data/input/glove.txt';
+const data_seed = __dirname + '/../data/input/transactions_debit_seed.csv';
+const data_1 = __dirname + '/../data/input/transactions_debit_1.csv';
+const data_2 = __dirname + '/../data/input/transactions_debit_2.csv';
+const data_3 = __dirname + '/../data/input/transactions_debit.QFX';
+const locationFile = __dirname + '/../data/input/2017_Gaz_place_national.txt';
+const locationFile2 = __dirname +  '/../data/input/uscitiesv1.4.csv';
+const wordVecsData = __dirname + '/../data/input/glove.demo.txt';
 
 // Formatted data
-const categories = require('./data/categories.json');
-const locations = require('./data/uscitiesv1.4.json');
-const transactions = require('./data/transactions_1.json');
-const wordVecs = require('./data/glove.json');
+const categories = require('../data/categories.json');
+const locations = require('../data/uscitiesv1.4.json');
+// const transactions = require('../data/transactions_1.json');
+const wordVecs = require('../data/glove.demo.json');
+
+function formatCategories() {
+    let catVecs = categories.map(cat => ({ name: cat, vectors: vectorizePhrase(cat.name) }));
+
+    fs.writeFile(__dirname + '/../data/categories.json', JSON.stringify(catVecs, null, 4), null, err => {
+        if (err) throw err;
+        console.log('Categories have been vectorized!');
+    });
+}
 
 function formatCSVData(fileLocation) {
     const csvData = fs.readFile(fileLocation, 'UTF-8', (err, csvParsed) => {
@@ -98,7 +108,7 @@ function formatWordVecs(wordVecs) {
     // let wv = [];
     let wv = {};
     
-    fs.readFile('./data/input/glove.txt', 'UTF-8', (err, vecs) => {
+    fs.readFile('./data/input/glove.demo.txt', 'UTF-8', (err, vecs) => {
         vecs.trim().split(/[\r\n]/).forEach(vec => {
             let vectors = vec.split(/\s+/);
             let word = vectors.shift();
@@ -132,6 +142,7 @@ function dressData() {
     // }
 
     let catVecs = categories.map(cat => ({ name: cat, mean: vectorizePhrase(cat.name) }));
+    // console.log(catVecs);
 
     let nextTransactions = transactions.map((transaction, i) => {
         const meta = {}
@@ -290,9 +301,10 @@ function similarity(a, b) {
     return dotproduct(a, b) / norm2(a) / norm2(b);
 }
 
-// formatQFXData(data_3);
-// formatCSVData(data_1);
+// formatCategories();
+// formatQFXData(data_2);
+formatCSVData(data_1);
 // formatCityData(locationFile);
 // formatCityData2(locationFile2);
 // formatWordVecs(wordVecsData);
-dressData();
+// dressData();

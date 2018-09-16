@@ -1,1834 +1,1858 @@
 [
     {
-        "Date": "12/29/17",
-        "Description": "ONLINE TRANSFER TO        XXXXX5146",
-        "Withdrawals": "$697.47",
-        "Deposits": "",
-        "Balance": "$12,165.21",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "12/29/17",
-        "Description": "POS PURCHASE          POS47797501  1305717 FARM FRESH               RICHMOND     VA",
-        "Withdrawals": "$6.58",
-        "Deposits": "",
-        "Balance": "$12,862.68",
-        "Category": "Food / Groceries"
-    },
-    {
-        "Date": "12/29/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 DETROIT 0178 D ECONOMI    ROMULUS     MI",
-        "Withdrawals": "$7.98",
-        "Deposits": "",
-        "Balance": "$12,869.26",
-        "Category": "Transportation / Travel"
-    },
-    {
-        "Date": "12/29/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 BIGALORA - 103            DETROIT     MI",
-        "Withdrawals": "$32.09",
-        "Deposits": "",
-        "Balance": "$12,877.24",
-        "Category": "Transportation / Travel"
-    },
-    {
-        "Date": "12/29/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 DELTA AIR   Baggage Fe    DETROIT     MI",
-        "Withdrawals": "$25.00",
-        "Deposits": "",
-        "Balance": "$12,909.33",
-        "Category": "Transportation / Travel"
-    },
-    {
-        "Date": "12/29/17",
-        "Description": "ACH CREDIT      XXXXX4032AEA PAPER SOURCE     DIRECT DEP",
-        "Withdrawals": "",
-        "Deposits": "$697.47",
-        "Balance": "$12,934.33",
-        "Category": "Paycheck"
-    },
-    {
-        "Date": "12/28/17",
-        "Description": "ONLINE TRANSFER TO        XXXXX5146",
-        "Withdrawals": "$95.00",
-        "Deposits": "",
-        "Balance": "$12,236.86",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "12/28/17",
-        "Description": "ONLINE TRANSFER TO        XXXXX5146",
-        "Withdrawals": "$536.42",
-        "Deposits": "",
-        "Balance": "$12,331.86",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "12/28/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SOUTHGATE DIGITAL CIN     SOUTHGATE   MI",
-        "Withdrawals": "$28.00",
-        "Deposits": "",
-        "Balance": "$12,868.28",
-        "Category": "Fun"
-    },
-    {
-        "Date": "12/27/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SYMON RENTAL              WYANDOTTE   MI",
-        "Withdrawals": "$6.70",
-        "Deposits": "",
-        "Balance": "$12,896.28",
-        "Category": "Uncategorized"
-    },
-    {
-        "Date": "12/27/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 C.J.'S VILLAGE CAFE       LAKEORIAN   MI",
-        "Withdrawals": "$45.00",
-        "Deposits": "",
-        "Balance": "$12,902.98",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/26/17",
-        "Description": "CHECK                  165           090300974",
-        "Withdrawals": "$55.00",
-        "Deposits": "",
-        "Balance": "$12,947.98",
-        "Category": "Uncategorized"
-    },
-    {
-        "Date": "12/26/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5154",
-        "Withdrawals": "",
-        "Deposits": "$10,400.00",
-        "Balance": "$13,002.98",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "12/22/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 MCDONALD'S F22006         DETROIT     MI",
-        "Withdrawals": "$13.01",
-        "Deposits": "",
-        "Balance": "$2,602.98",
-        "Category": "Transportation / Travel"
-    },
-    {
-        "Date": "12/22/17",
-        "Description": "ACH CREDIT      XXXXX9268 CARMAX AUTO SUPE PAYROLL",
-        "Withdrawals": "",
-        "Deposits": "$2,531.28",
-        "Balance": "$2,615.99",
-        "Category": "Paycheck"
-    },
-    {
-        "Date": "12/21/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SUBWAY        03470572    RICHMOND    VA",
-        "Withdrawals": "$25.11",
-        "Deposits": "",
-        "Balance": "$84.71",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/21/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SOUTHERN RAILWAY TAPHO    XXXXX8350 VA",
-        "Withdrawals": "$12.00",
-        "Deposits": "",
-        "Balance": "$109.82",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/20/17",
-        "Description": "CHECK                  163           095335384",
-        "Withdrawals": "$15.00",
-        "Deposits": "",
-        "Balance": "$121.82",
-        "Category": "Uncategorized"
-    },
-    {
-        "Date": "12/20/17",
-        "Description": "N1220 9460 PAYMENT    POS003       1344987 NETFLIX COM              LOS GATOS    CA",
-        "Withdrawals": "$10.99",
-        "Deposits": "",
-        "Balance": "$136.82",
-        "Category": "Uncategorized"
-    },
-    {
-        "Date": "12/20/17",
-        "Description": "POS PURCHASE          POS47797501  1344986 FARM FRESH               RICHMOND     VA",
-        "Withdrawals": "$15.43",
-        "Deposits": "",
-        "Balance": "$147.81",
-        "Category": "Food / Groceries"
-    },
-    {
-        "Date": "12/20/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 PARK N GO VIRGINIA        SANDSTON    VA",
-        "Withdrawals": "$26.36",
-        "Deposits": "",
-        "Balance": "$163.24",
-        "Category": "Transportation / Travel"
-    },
-    {
-        "Date": "12/20/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 CHICK-FIL-A  #01022       SMITHFIELD  NC",
-        "Withdrawals": "$3.51",
-        "Deposits": "",
-        "Balance": "$189.60",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/20/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 CHICK-FIL-A  #01022       SMITHFIELD  NC",
-        "Withdrawals": "$9.11",
-        "Deposits": "",
-        "Balance": "$193.11",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/20/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 MCDONALD'S F7004          ST AUGUSTIN FL",
-        "Withdrawals": "$10.51",
-        "Deposits": "",
-        "Balance": "$202.22",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "12/20/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
-        "Withdrawals": "",
-        "Deposits": "$9.00",
-        "Balance": "$212.73",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "12/19/17",
-        "Description": "POS PURCHASE          POS4367CL01  1361808 THE GOOD LEAF            RICHMOND     VA",
-        "Withdrawals": "$6.63",
-        "Deposits": "",
-        "Balance": "$203.73",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/19/17",
-        "Description": "POS PURCHASE          POS01507501  1300422 WAWA 8605                SANDSTON     VA",
-        "Withdrawals": "$8.04",
-        "Deposits": "",
-        "Balance": "$210.36",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/19/17",
-        "Description": "POS PURCHASE          POS33561401  1300423 SHELL SERVICE            SELMA        NC",
-        "Withdrawals": "$44.89",
-        "Deposits": "",
-        "Balance": "$218.40",
-        "Category": "Transportation / Gas & Fuel"
-    },
-    {
-        "Date": "12/19/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 MCDONALD'S F5169          RICHMOND HI GA",
-        "Withdrawals": "$1.70",
-        "Deposits": "",
-        "Balance": "$263.29",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/19/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 MCDONALD'S F5169          RICHMOND HI GA",
-        "Withdrawals": "$2.14",
-        "Deposits": "",
-        "Balance": "$264.99",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/19/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
-        "Withdrawals": "",
-        "Deposits": "$6.00",
-        "Balance": "$267.13",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "12/19/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
-        "Withdrawals": "",
-        "Deposits": "$27.00",
-        "Balance": "$261.13",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "12/18/17",
-        "Description": "POS PURCHASE          POS27644801  4712829 SUNOCO 0289955           ORMOND BEACH FL",
-        "Withdrawals": "$1.49",
-        "Deposits": "",
-        "Balance": "$234.13",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/18/17",
-        "Description": "POS PURCHASE          POS27644801  4494349 SUNOCO 0289955           ORMOND BEACH FL",
-        "Withdrawals": "$15.69",
-        "Deposits": "",
-        "Balance": "$235.62",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/18/17",
-        "Description": "POS PURCHASE          POS41732401  4494348 SUNOCO 0613264           SEBASTIAN    FL",
-        "Withdrawals": "$8.03",
-        "Deposits": "",
-        "Balance": "$251.31",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/18/17",
-        "Description": "ONLINE TRANSFER TO        XXXXX5146",
-        "Withdrawals": "$123.00",
-        "Deposits": "",
-        "Balance": "$259.34",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "12/18/17",
-        "Description": "ONLINE TRANSFER TO        XXXXX5146",
-        "Withdrawals": "$516.00",
-        "Deposits": "",
-        "Balance": "$382.34",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "12/18/17",
-        "Description": "POS PURCHASE          POS99999999  4712828 PUBLIX SUPER M           VERO BEACH   FL",
-        "Withdrawals": "$33.74",
-        "Deposits": "",
-        "Balance": "$898.34",
-        "Category": "Food / Groceries"
-    },
-    {
-        "Date": "12/18/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 the 905 cafe              melbourne   FL",
-        "Withdrawals": "$17.12",
-        "Deposits": "",
-        "Balance": "$932.08",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/18/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 HOLLYWOOD POPCORN -       LAKE BUENA  FL",
-        "Withdrawals": "$6.00",
-        "Deposits": "",
-        "Balance": "$949.20",
-        "Category": "Fun"
-    },
-    {
-        "Date": "12/18/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 ROSIE'S ALL-AMERICA       LAKE BUENA  FL",
-        "Withdrawals": "$23.20",
-        "Deposits": "",
-        "Balance": "$955.20",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/18/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 STARBUCKS STORE 11906     ORLANDO     FL",
-        "Withdrawals": "$6.95",
-        "Deposits": "",
-        "Balance": "$978.40",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/18/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 STARBUCKS STORE 11906     ORLANDO     FL",
-        "Withdrawals": "$4.74",
-        "Deposits": "",
-        "Balance": "$985.35",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/18/17",
-        "Description": "POS PURCHASE          POS99999999  4712830 TARGET T-0649            ORLANDO      FL",
-        "Withdrawals": "$7.45",
-        "Deposits": "",
-        "Balance": "$990.09",
-        "Category": "Personal / Home & Hygiene"
-    },
-    {
-        "Date": "12/18/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SQ *GIDEON'S BAKEHO       WINTER PARK FL",
-        "Withdrawals": "$4.26",
-        "Deposits": "",
-        "Balance": "$997.54",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/18/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SQ *HOUNDSTOOTH SAUCE     Winter Park FL",
-        "Withdrawals": "$13.48",
-        "Deposits": "",
-        "Balance": "$1,001.80",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/18/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 STARBUCKS STORE 24718     ORLANDO     FL",
-        "Withdrawals": "$5.28",
-        "Deposits": "",
-        "Balance": "$1,015.28",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/18/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 FRESH TO ORDER            ATLANTA     GA",
-        "Withdrawals": "$10.57",
-        "Deposits": "",
-        "Balance": "$1,020.56",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/18/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 FRESHENS YOGURT & SMOO    ATLANTA     GA",
-        "Withdrawals": "$16.82",
-        "Deposits": "",
-        "Balance": "$1,031.13",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/15/17",
-        "Description": "POS PURCHASE          POS99999999  1540308 WALGREENS STOR           ORLANDO      FL",
-        "Withdrawals": "$10.21",
-        "Deposits": "",
-        "Balance": "$1,047.95",
-        "Category": "Personal / Home & Hygiene"
-    },
-    {
-        "Date": "12/15/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 407 CAFE                  ORLANDO     FL",
-        "Withdrawals": "$2.76",
-        "Deposits": "",
-        "Balance": "$1,058.16",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/15/17",
-        "Description": "POS PURCHASE          POS42355001  1540307 T.J. MAXX #149           ORLANDO      FL",
-        "Withdrawals": "$28.71",
-        "Deposits": "",
-        "Balance": "$1,060.92",
-        "Category": "Personal / Clothes"
-    },
-    {
-        "Date": "12/15/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 RICHMOND AIRPORT          RICHMOND    VA",
-        "Withdrawals": "$21.46",
-        "Deposits": "",
-        "Balance": "$1,089.63",
-        "Category": "Transportation / Travel"
-    },
-    {
-        "Date": "12/15/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 STARBUCKS OMNI RICHMON    RICHMOND    VA",
-        "Withdrawals": "$4.74",
-        "Deposits": "",
-        "Balance": "$1,111.09",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/15/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 WEEZIES KITCHEN          XXXXX1270 VA",
-        "Withdrawals": "$14.52",
-        "Deposits": "",
-        "Balance": "$1,115.83",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/15/17",
-        "Description": "ACH CREDIT      XXXXX2079AEA PAPER SOURCE     DIRECT DEP",
-        "Withdrawals": "",
-        "Deposits": "$661.20",
-        "Balance": "$1,130.35",
-        "Category": "Transportation / Travel"
-    },
-    {
-        "Date": "12/14/17",
-        "Description": "POS PURCHASE          POS99999999  1175647 CRACKER BARREL           RICHMOND     VA",
-        "Withdrawals": "$24.08",
-        "Deposits": "",
-        "Balance": "$469.15",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/13/17",
-        "Description": "POS PURCHASE          POS105       1192017 THE UPS STORE            RICHMOND     VA",
-        "Withdrawals": "$11.80",
-        "Deposits": "",
-        "Balance": "$493.23",
-        "Category": "Uncategorized"
-    },
-    {
-        "Date": "12/13/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 INSOMNIA COOKIES - RIC    RICHMOND    VA",
-        "Withdrawals": "$13.48",
-        "Deposits": "",
-        "Balance": "$505.03",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/12/17",
-        "Description": "CHECK                  162           089725121",
-        "Withdrawals": "$642.00",
-        "Deposits": "",
-        "Balance": "$518.51",
-        "Category": "Uncategorized"
-    },
-    {
-        "Date": "12/12/17",
+        "Date": "4/10/18",
         "Description": "ACH DEBIT       XXXXX7606 DOMINION ENERGY  ELEC BILL",
-        "Withdrawals": "$55.48",
+        "Withdrawals": "$55.73",
         "Deposits": "",
-        "Balance": "$1,160.51",
-        "Category": "Utilities / Electric"
+        "Balance": "$94.59",
+        "Category": ""
     },
     {
-        "Date": "12/12/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 THE MILL ON MACARTHU      XXXXX1196 VA",
-        "Withdrawals": "$30.00",
+        "Date": "4/9/18",
+        "Description": "POS PURCHASE          POS38690044  4373187 WAL-MART SUPER           RICHMOND     VA",
+        "Withdrawals": "$10.10",
         "Deposits": "",
-        "Balance": "$1,215.99",
-        "Category": "Food / On the Go"
+        "Balance": "$150.32",
+        "Category": ""
     },
     {
-        "Date": "12/12/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
-        "Withdrawals": "",
-        "Deposits": "$91.77",
-        "Balance": "$1,245.99",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "12/11/17",
-        "Description": "POS PURCHASE          POS47797501  4299110 FARM FRESH               RICHMOND     VA",
-        "Withdrawals": "$32.30",
+        "Date": "4/9/18",
+        "Description": "POS PURCHASE          POS24386901  4373184 WAL-MART #3869           RICHMOND     VA",
+        "Withdrawals": "$14.58",
         "Deposits": "",
-        "Balance": "$1,154.22",
-        "Category": "Food / Groceries"
+        "Balance": "$160.42",
+        "Category": ""
     },
     {
-        "Date": "12/11/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SMOOTHIE KING #446        RICHMOND    VA",
-        "Withdrawals": "$5.51",
+        "Date": "4/9/18",
+        "Description": "POS PURCHASE          POS99999999  4373185 OFFICE MAX/OFF           RICHMOND     VA",
+        "Withdrawals": "$126.35",
         "Deposits": "",
-        "Balance": "$1,186.52",
-        "Category": "Food / On the Go"
+        "Balance": "$175.00",
+        "Category": ""
     },
     {
-        "Date": "12/11/17",
-        "Description": "POS PURCHASE          POS09126387  4299108 PAPER SOURCE C           RICHMOND     VA",
-        "Withdrawals": "$33.70",
-        "Deposits": "",
-        "Balance": "$1,192.03",
-        "Category": "Paycheck"
-    },
-    {
-        "Date": "12/11/17",
+        "Date": "4/9/18",
         "Description": "DEBIT CARD PURCHASE   XXXXX9460 MICROSOFT   STORE        XXXXX7676 WA",
-        "Withdrawals": "$34.99",
+        "Withdrawals": "$19.80",
         "Deposits": "",
-        "Balance": "$1,225.73",
-        "Category": "Fun"
+        "Balance": "$301.35",
+        "Category": ""
     },
     {
-        "Date": "12/11/17",
-        "Description": "POS PURCHASE          POS47797501  4299109 FARM FRESH               RICHMOND     VA",
-        "Withdrawals": "$24.28",
-        "Deposits": "",
-        "Balance": "$1,260.72",
-        "Category": "Food / Groceries"
-    },
-    {
-        "Date": "12/11/17",
+        "Date": "4/9/18",
         "Description": "ONLINE TRANSFER TO        XXXXX5146",
-        "Withdrawals": "$1,955.27",
+        "Withdrawals": "$594.41",
         "Deposits": "",
-        "Balance": "$1,285.00",
-        "Category": "Bank Transfer"
+        "Balance": "$321.15",
+        "Category": ""
     },
     {
-        "Date": "12/11/17",
-        "Description": "ONLINE TRANSFER TO        XXXXX5154",
-        "Withdrawals": "$358.00",
+        "Date": "4/9/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 PANERA BREAD #601639      RICHMOND    VA",
+        "Withdrawals": "$15.30",
         "Deposits": "",
-        "Balance": "$3,240.27",
-        "Category": "Bank Transfer"
+        "Balance": "$915.56",
+        "Category": ""
     },
     {
-        "Date": "12/11/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SUBWAY        03058112    RICHMOND    VA",
-        "Withdrawals": "$21.33",
+        "Date": "4/9/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 MICHAELS STORES 1083      HENRICO     VA",
+        "Withdrawals": "$54.67",
         "Deposits": "",
-        "Balance": "$3,598.27",
-        "Category": "Food / On the Go"
+        "Balance": "$930.86",
+        "Category": ""
     },
     {
-        "Date": "12/11/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5154",
-        "Withdrawals": "",
-        "Deposits": "$1,000.00",
-        "Balance": "$3,619.60",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "12/8/17",
-        "Description": "POS PURCHASE          POS47797501  1447006 FARM FRESH               RICHMOND     VA",
-        "Withdrawals": "$16.90",
+        "Date": "4/9/18",
+        "Description": "POS PURCHASE          POS09126386  4373186 PAPER SOURCE C           RICHMOND     VA",
+        "Withdrawals": "$24.21",
         "Deposits": "",
-        "Balance": "$2,619.60",
-        "Category": "Food / Groceries"
+        "Balance": "$985.53",
+        "Category": ""
     },
     {
-        "Date": "12/8/17",
-        "Description": "POS PURCHASE          POS47797501  1381691 FARM FRESH               RICHMOND     VA",
-        "Withdrawals": "$7.56",
+        "Date": "4/9/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SQ *BEV'S HOMEMADE        RICHMOND    VA",
+        "Withdrawals": "$5.06",
         "Deposits": "",
-        "Balance": "$2,636.50",
-        "Category": "Food / Groceries"
+        "Balance": "$1,009.74",
+        "Category": ""
     },
     {
-        "Date": "12/8/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 23RD AND MAIN             RICHMOND    VA",
-        "Withdrawals": "$35.00",
+        "Date": "4/9/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 CKE*CARYTOWN ENTERTA 2    RICHMOND    VA",
+        "Withdrawals": "$41.50",
         "Deposits": "",
-        "Balance": "$2,644.06",
-        "Category": "Food / On the Go"
+        "Balance": "$1,014.80",
+        "Category": ""
     },
     {
-        "Date": "12/8/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 ADOBE PHOTOGPHY PLAN     XXXXX6687 CA",
+        "Date": "4/9/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 ADOBE SYSTEMS INC       XXXXX6687 CA",
         "Withdrawals": "$9.99",
         "Deposits": "",
-        "Balance": "$2,679.06",
-        "Category": "Uncategorized"
+        "Balance": "$1,056.30",
+        "Category": ""
     },
     {
-        "Date": "12/8/17",
+        "Date": "4/9/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SQ *CHRISTOPHER FLOWER    Richmond    VA",
+        "Withdrawals": "$23.00",
+        "Deposits": "",
+        "Balance": "$1,066.29",
+        "Category": ""
+    },
+    {
+        "Date": "4/9/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 COLONIAL SHOOTING ACAD    RICHMOND    VA",
+        "Withdrawals": "$4.20",
+        "Deposits": "",
+        "Balance": "$1,089.29",
+        "Category": ""
+    },
+    {
+        "Date": "4/9/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 COLONIAL SHOOTING ACAD    RICHMOND    VA",
+        "Withdrawals": "$10.68",
+        "Deposits": "",
+        "Balance": "$1,093.49",
+        "Category": ""
+    },
+    {
+        "Date": "4/9/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 FEDEX XXXXX3631        MEMPHIS     TN",
+        "Withdrawals": "$35.10",
+        "Deposits": "",
+        "Balance": "$1,104.17",
+        "Category": ""
+    },
+    {
+        "Date": "4/9/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 AMAZON MKTPLACE PMTS      AMZN.COM/BI WA",
+        "Withdrawals": "$9.98",
+        "Deposits": "",
+        "Balance": "$1,139.27",
+        "Category": ""
+    },
+    {
+        "Date": "4/9/18",
+        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
+        "Withdrawals": "",
+        "Deposits": "$146.15",
+        "Balance": "$1,149.25",
+        "Category": ""
+    },
+    {
+        "Date": "4/6/18",
+        "Description": "CHECK                  177           096733472",
+        "Withdrawals": "$180.00",
+        "Deposits": "",
+        "Balance": "$1,003.10",
+        "Category": ""
+    },
+    {
+        "Date": "4/6/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 NY DELI                   RICHMOND    VA",
+        "Withdrawals": "$12.69",
+        "Deposits": "",
+        "Balance": "$1,183.10",
+        "Category": ""
+    },
+    {
+        "Date": "4/6/18",
+        "Description": "ACH CREDIT      XXXXX1056AEA PAPER SOURCE     DIRECT DEP",
+        "Withdrawals": "",
+        "Deposits": "$695.19",
+        "Balance": "$1,195.79",
+        "Category": ""
+    },
+    {
+        "Date": "4/5/18",
+        "Description": "POS PURCHASE          POS47797501  1251429 FARM FRESH               RICHMOND     VA",
+        "Withdrawals": "$51.29",
+        "Deposits": "",
+        "Balance": "$500.60",
+        "Category": ""
+    },
+    {
+        "Date": "4/5/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SUBWAY        03470572    RICHMOND    VA",
+        "Withdrawals": "$15.56",
+        "Deposits": "",
+        "Balance": "$551.89",
+        "Category": ""
+    },
+    {
+        "Date": "4/5/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 AMAZON MKTPLACE PMTS      AMZN.COM/BI WA",
+        "Withdrawals": "$12.98",
+        "Deposits": "",
+        "Balance": "$567.45",
+        "Category": ""
+    },
+    {
+        "Date": "4/4/18",
+        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
+        "Withdrawals": "",
+        "Deposits": "$132.00",
+        "Balance": "$580.43",
+        "Category": ""
+    },
+    {
+        "Date": "4/2/18",
+        "Description": "ONLINE TRANSFER TO        XXXXX5146",
+        "Withdrawals": "$84.23",
+        "Deposits": "",
+        "Balance": "$448.43",
+        "Category": ""
+    },
+    {
+        "Date": "4/2/18",
+        "Description": "ACH WEB-RECUR   ML5X64 AMERICAN CIGAR   WEB PMTS",
+        "Withdrawals": "$1,604.14",
+        "Deposits": "",
+        "Balance": "$532.66",
+        "Category": ""
+    },
+    {
+        "Date": "4/2/18",
+        "Description": "POS PURCHASE          POS08992564  4233538 PETSMART # 101           RICHMAND     VA",
+        "Withdrawals": "$11.18",
+        "Deposits": "",
+        "Balance": "$2,136.80",
+        "Category": ""
+    },
+    {
+        "Date": "4/2/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 Etsy Inc Seller Fees      XXXXX7955 NY",
+        "Withdrawals": "$0.40",
+        "Deposits": "",
+        "Balance": "$2,147.98",
+        "Category": ""
+    },
+    {
+        "Date": "4/2/18",
+        "Description": "POS PURCHASE          POS47797501  4439837 FARM FRESH               RICHMOND     VA",
+        "Withdrawals": "$71.44",
+        "Deposits": "",
+        "Balance": "$2,148.38",
+        "Category": ""
+    },
+    {
+        "Date": "4/2/18",
+        "Description": "POS PURCHASE          POS47797501  4233535 FARM FRESH               RICHMOND     VA",
+        "Withdrawals": "$4.71",
+        "Deposits": "",
+        "Balance": "$2,219.82",
+        "Category": ""
+    },
+    {
+        "Date": "4/2/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 FIVE GUYS WILLOW L        RICHMOND    VA",
+        "Withdrawals": "$11.13",
+        "Deposits": "",
+        "Balance": "$2,224.53",
+        "Category": ""
+    },
+    {
+        "Date": "4/2/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 GINGER RESTAURANT LLC     RICHMOND    VA",
+        "Withdrawals": "$26.49",
+        "Deposits": "",
+        "Balance": "$2,235.66",
+        "Category": ""
+    },
+    {
+        "Date": "4/2/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SQ *MAIN STREET BARBER    Richmond    VA",
+        "Withdrawals": "$31.20",
+        "Deposits": "",
+        "Balance": "$2,262.15",
+        "Category": ""
+    },
+    {
+        "Date": "4/2/18",
+        "Description": "ONLINE TRANSFER TO        XXXXX5146",
+        "Withdrawals": "$720.45",
+        "Deposits": "",
+        "Balance": "$2,293.35",
+        "Category": ""
+    },
+    {
+        "Date": "4/2/18",
+        "Description": "POS PURCHASE          POS08992565  4233539 PETSMART # 101           RICHMAND     VA",
+        "Withdrawals": "$88.89",
+        "Deposits": "",
+        "Balance": "$3,013.80",
+        "Category": ""
+    },
+    {
+        "Date": "4/2/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 GELATI CELESTI            RICHMOND    VA",
+        "Withdrawals": "$14.25",
+        "Deposits": "",
+        "Balance": "$3,102.69",
+        "Category": ""
+    },
+    {
+        "Date": "4/2/18",
+        "Description": "POS PURCHASE          POS26890401  4233537 WAWA STORE 863           RICHMOND     VA",
+        "Withdrawals": "$18.44",
+        "Deposits": "",
+        "Balance": "$3,116.94",
+        "Category": ""
+    },
+    {
+        "Date": "4/2/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 AMAZON MKTPLACE PMTS      AMZN.COM/BI WA",
+        "Withdrawals": "$10.98",
+        "Deposits": "",
+        "Balance": "$3,135.38",
+        "Category": ""
+    },
+    {
+        "Date": "4/2/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SQ *SHOCKOE ESPRESS       RICHMOND    VA",
+        "Withdrawals": "$7.12",
+        "Deposits": "",
+        "Balance": "$3,146.36",
+        "Category": ""
+    },
+    {
+        "Date": "4/2/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 AMAZON MKTPLACE PMTS      AMZN.COM/BI WA",
+        "Withdrawals": "$139.99",
+        "Deposits": "",
+        "Balance": "$3,153.48",
+        "Category": ""
+    },
+    {
+        "Date": "4/2/18",
+        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
+        "Withdrawals": "",
+        "Deposits": "$180.00",
+        "Balance": "$3,293.47",
+        "Category": ""
+    },
+    {
+        "Date": "4/2/18",
+        "Description": "DEBIT CARD CREDIT     1026344002 VIS 0401 PETSMART # 1011           RICHMAND    VA",
+        "Withdrawals": "",
+        "Deposits": "$30.00",
+        "Balance": "$3,113.47",
+        "Category": ""
+    },
+    {
+        "Date": "4/2/18",
+        "Description": "POS RETURN            POS99999999  4233536 DSW SHOPS AT W           RICHMOND     VA",
+        "Withdrawals": "",
+        "Deposits": "$84.23",
+        "Balance": "$3,083.47",
+        "Category": ""
+    },
+    {
+        "Date": "3/30/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SWEET TEAS                RICHMOND    VA",
+        "Withdrawals": "$25.08",
+        "Deposits": "",
+        "Balance": "$2,999.24",
+        "Category": ""
+    },
+    {
+        "Date": "3/30/18",
         "Description": "ACH CREDIT      XXXXX9268 CARMAX AUTO SUPE PAYROLL",
         "Withdrawals": "",
-        "Deposits": "$2,572.26",
-        "Balance": "$2,689.05",
-        "Category": "Paycheck"
+        "Deposits": "$2,976.90",
+        "Balance": "$3,024.32",
+        "Category": ""
     },
     {
-        "Date": "12/7/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 CHICK-FIL-A #03685        RICHMOND    VA",
-        "Withdrawals": "$6.00",
-        "Deposits": "",
-        "Balance": "$116.79",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/7/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 CHICK-FIL-A #03685        RICHMOND    VA",
-        "Withdrawals": "$14.50",
-        "Deposits": "",
-        "Balance": "$122.79",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/7/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SUBWAY        03470572    RICHMOND    VA",
-        "Withdrawals": "$1.54",
-        "Deposits": "",
-        "Balance": "$137.29",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/7/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SUBWAY        03470572    RICHMOND    VA",
-        "Withdrawals": "$16.88",
-        "Deposits": "",
-        "Balance": "$138.83",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/7/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 HIGH POINT BARBER SHOP    RICHMOND    VA",
-        "Withdrawals": "$33.00",
-        "Deposits": "",
-        "Balance": "$155.71",
-        "Category": "Personal / Home & Hygiene"
-    },
-    {
-        "Date": "12/7/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SOUTHERN RAILWAY TAPHO    XXXXX8350 VA",
-        "Withdrawals": "$12.00",
-        "Deposits": "",
-        "Balance": "$188.71",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/6/17",
-        "Description": "POS PURCHASE          POS04905013  1117609 FIRESTONE 0239           RICHMOND     VA",
-        "Withdrawals": "$267.43",
-        "Deposits": "",
-        "Balance": "$200.71",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/5/17",
-        "Description": "ATM WITHDRAWAL FEE",
-        "Withdrawals": "$3.00",
-        "Deposits": "",
-        "Balance": "$468.14",
-        "Category": "Miscellaneous / ATM Fee"
-    },
-    {
-        "Date": "12/5/17",
-        "Description": "ATM WITHDRAWAL        MACLK65384N1205 9460 2320 E. MAIN ST          RICHMOND     VA",
-        "Withdrawals": "$42.50",
-        "Deposits": "",
-        "Balance": "$471.14",
-        "Category": "Miscellaneous / ATM Withdrawal"
-    },
-    {
-        "Date": "12/5/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SQ *SHOCKOE ESPRESS       RICHMOND    VA",
-        "Withdrawals": "$2.75",
-        "Deposits": "",
-        "Balance": "$513.64",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/5/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5154",
-        "Withdrawals": "",
-        "Deposits": "$310.00",
-        "Balance": "$516.39",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "12/4/17",
-        "Description": "POS PURCHASE          POS47797501  4574357 FARM FRESH               RICHMOND     VA",
-        "Withdrawals": "$30.49",
-        "Deposits": "",
-        "Balance": "$206.39",
-        "Category": "Food / Groceries"
-    },
-    {
-        "Date": "12/4/17",
+        "Date": "3/29/18",
         "Description": "ONLINE TRANSFER TO        XXXXX5146",
-        "Withdrawals": "$785.87",
+        "Withdrawals": "$52.80",
         "Deposits": "",
-        "Balance": "$236.88",
-        "Category": "Bank Transfer"
+        "Balance": "$47.42",
+        "Category": ""
     },
     {
-        "Date": "12/4/17",
-        "Description": "POS PURCHASE          POS47797501  4574358 FARM FRESH               RICHMOND     VA",
-        "Withdrawals": "$7.15",
+        "Date": "3/28/18",
+        "Description": "POS PURCHASE          POSLK301626  1228497 THE FRESH MARK           RICHMOND     VA",
+        "Withdrawals": "$14.99",
         "Deposits": "",
-        "Balance": "$1,022.75",
-        "Category": "Food / Groceries"
+        "Balance": "$100.22",
+        "Category": ""
     },
     {
-        "Date": "12/4/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 CITYPARKING INC          XXXXX3353 VA",
-        "Withdrawals": "$3.50",
+        "Date": "3/28/18",
+        "Description": "POS PURCHASE          POS42620001  1228496 DOLLAR TREE              RICHMOND     VA",
+        "Withdrawals": "$4.21",
         "Deposits": "",
-        "Balance": "$1,029.90",
-        "Category": "Transportation"
+        "Balance": "$115.21",
+        "Category": ""
     },
     {
-        "Date": "12/4/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 Etsy Inc Seller Fees      XXXXX7955 NY",
-        "Withdrawals": "$0.20",
+        "Date": "3/27/18",
+        "Description": "POS PURCHASE          POS47797501  1194603 FARM FRESH               RICHMOND     VA",
+        "Withdrawals": "$53.40",
         "Deposits": "",
-        "Balance": "$1,033.40",
-        "Category": "Uncategorized"
+        "Balance": "$119.42",
+        "Category": ""
     },
     {
-        "Date": "12/4/17",
+        "Date": "3/27/18",
+        "Description": "ONLINE TRANSFER TO        XXXXX5146",
+        "Withdrawals": "$52.18",
+        "Deposits": "",
+        "Balance": "$172.82",
+        "Category": ""
+    },
+    {
+        "Date": "3/26/18",
+        "Description": "POS PURCHASE          POS26029901  4464045 FOOD LION #029           MIDLOTHIAN   VA",
+        "Withdrawals": "$9.20",
+        "Deposits": "",
+        "Balance": "$225.00",
+        "Category": ""
+    },
+    {
+        "Date": "3/26/18",
+        "Description": "POS PURCHASE          POS42471001  4464044 DOLLAR TREE              MIDLOTHIAN   VA",
+        "Withdrawals": "$6.32",
+        "Deposits": "",
+        "Balance": "$234.20",
+        "Category": ""
+    },
+    {
+        "Date": "3/26/18",
+        "Description": "POS PURCHASE          POS47797501  4257417 FARM FRESH               RICHMOND     VA",
+        "Withdrawals": "$13.67",
+        "Deposits": "",
+        "Balance": "$240.52",
+        "Category": ""
+    },
+    {
+        "Date": "3/26/18",
+        "Description": "POS PURCHASE          POS47797501  4257418 FARM FRESH               RICHMOND     VA",
+        "Withdrawals": "$5.81",
+        "Deposits": "",
+        "Balance": "$254.19",
+        "Category": ""
+    },
+    {
+        "Date": "3/26/18",
+        "Description": "ONLINE TRANSFER TO        XXXXX5146",
+        "Withdrawals": "$616.74",
+        "Deposits": "",
+        "Balance": "$260.00",
+        "Category": ""
+    },
+    {
+        "Date": "3/26/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SQ *SHOCKOE ESPRESS       RICHMOND    VA",
+        "Withdrawals": "$12.01",
+        "Deposits": "",
+        "Balance": "$876.74",
+        "Category": ""
+    },
+    {
+        "Date": "3/26/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 JIMMY JOHNS - 1741        RICHMOND    VA",
+        "Withdrawals": "$18.03",
+        "Deposits": "",
+        "Balance": "$888.75",
+        "Category": ""
+    },
+    {
+        "Date": "3/23/18",
+        "Description": "CHECK                  176           096652776",
+        "Withdrawals": "$90.00",
+        "Deposits": "",
+        "Balance": "$906.78",
+        "Category": ""
+    },
+    {
+        "Date": "3/23/18",
+        "Description": "POS PURCHASE          POS47797501  1454900 FARM FRESH               RICHMOND     VA",
+        "Withdrawals": "$42.56",
+        "Deposits": "",
+        "Balance": "$996.78",
+        "Category": ""
+    },
+    {
+        "Date": "3/23/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 PARKING CITY OF RICHMO    RICHMOND    VA",
+        "Withdrawals": "$1.25",
+        "Deposits": "",
+        "Balance": "$1,039.34",
+        "Category": ""
+    },
+    {
+        "Date": "3/23/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 CHICK-FIL-A #00356        RICHMOND    VA",
+        "Withdrawals": "$3.84",
+        "Deposits": "",
+        "Balance": "$1,040.59",
+        "Category": ""
+    },
+    {
+        "Date": "3/23/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 CHICK-FIL-A #00356        RICHMOND    VA",
+        "Withdrawals": "$9.20",
+        "Deposits": "",
+        "Balance": "$1,044.43",
+        "Category": ""
+    },
+    {
+        "Date": "3/23/18",
         "Description": "ONLINE TRANSFER FROM      XXXXX5146",
         "Withdrawals": "",
-        "Deposits": "$10.00",
-        "Balance": "$1,033.60",
-        "Category": "Bank Transfer"
+        "Deposits": "$60.00",
+        "Balance": "$1,053.63",
+        "Category": ""
     },
     {
-        "Date": "12/4/17",
+        "Date": "3/23/18",
+        "Description": "ACH CREDIT      XXXXX8761AEA PAPER SOURCE     DIRECT DEP",
+        "Withdrawals": "",
+        "Deposits": "$699.70",
+        "Balance": "$993.63",
+        "Category": ""
+    },
+    {
+        "Date": "3/22/18",
+        "Description": "ACH WEBSINGLE  XXXXX7642 VENMO            PAYMENT",
+        "Withdrawals": "$110.00",
+        "Deposits": "",
+        "Balance": "$293.93",
+        "Category": ""
+    },
+    {
+        "Date": "3/22/18",
+        "Description": "ACH WEBSINGLE  XXXXX2081 VENMO            PAYMENT",
+        "Withdrawals": "$193.00",
+        "Deposits": "",
+        "Balance": "$403.93",
+        "Category": ""
+    },
+    {
+        "Date": "3/22/18",
+        "Description": "RECURRING DEBIT CARD  XXXXX0081 Microsoft *Xbox           msbill.info WA",
+        "Withdrawals": "$59.99",
+        "Deposits": "",
+        "Balance": "$596.93",
+        "Category": ""
+    },
+    {
+        "Date": "3/22/18",
+        "Description": "POS PURCHASE          POS99999999  1047358 DSW SHOPS AT W           RICHMOND     VA",
+        "Withdrawals": "$84.23",
+        "Deposits": "",
+        "Balance": "$656.92",
+        "Category": ""
+    },
+    {
+        "Date": "3/22/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 EN SU BOCA                RICHMOND    VA",
+        "Withdrawals": "$13.00",
+        "Deposits": "",
+        "Balance": "$741.15",
+        "Category": ""
+    },
+    {
+        "Date": "3/21/18",
+        "Description": "MOBILE DEPOSIT                       XXXXX0249",
+        "Withdrawals": "",
+        "Deposits": "$10.92",
+        "Balance": "$754.15",
+        "Category": ""
+    },
+    {
+        "Date": "3/21/18",
+        "Description": "MOBILE DEPOSIT                       XXXXX8477",
+        "Withdrawals": "",
+        "Deposits": "$13.79",
+        "Balance": "$743.23",
+        "Category": ""
+    },
+    {
+        "Date": "3/21/18",
         "Description": "ONLINE TRANSFER FROM      XXXXX5146",
         "Withdrawals": "",
-        "Deposits": "$3.50",
-        "Balance": "$1,023.60",
-        "Category": "Bank Transfer"
+        "Deposits": "$387.46",
+        "Balance": "$729.44",
+        "Category": ""
     },
     {
-        "Date": "12/4/17",
+        "Date": "3/20/18",
+        "Description": "N0320 9460 PAYMENT    POS003       1147500 NETFLIX COM              LOS GATOS    CA",
+        "Withdrawals": "$10.99",
+        "Deposits": "",
+        "Balance": "$341.98",
+        "Category": ""
+    },
+    {
+        "Date": "3/20/18",
+        "Description": "POS PURCHASE          POS47797501  1199905 FARM FRESH               RICHMOND     VA",
+        "Withdrawals": "$53.46",
+        "Deposits": "",
+        "Balance": "$352.97",
+        "Category": ""
+    },
+    {
+        "Date": "3/20/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 PANDA EXPRESS #2551       GLEN ALLEN  VA",
+        "Withdrawals": "$11.00",
+        "Deposits": "",
+        "Balance": "$406.43",
+        "Category": ""
+    },
+    {
+        "Date": "3/20/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 WENDY'S #196              MIDLOTHIAN  VA",
+        "Withdrawals": "$5.98",
+        "Deposits": "",
+        "Balance": "$417.43",
+        "Category": ""
+    },
+    {
+        "Date": "3/20/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 THE MILL ON MACARTHU      XXXXX1196 VA",
+        "Withdrawals": "$21.81",
+        "Deposits": "",
+        "Balance": "$423.41",
+        "Category": ""
+    },
+    {
+        "Date": "3/19/18",
+        "Description": "POS PURCHASE          POS99999999  4517374 KOHLS 0310 112           GLEN ALLEN   VA",
+        "Withdrawals": "$122.12",
+        "Deposits": "",
+        "Balance": "$445.22",
+        "Category": ""
+    },
+    {
+        "Date": "3/19/18",
+        "Description": "POS PURCHASE          POS00MM7L40  4517375 7-ELEVEN                 RICHMOND     VA",
+        "Withdrawals": "$2.05",
+        "Deposits": "",
+        "Balance": "$567.34",
+        "Category": ""
+    },
+    {
+        "Date": "3/19/18",
+        "Description": "ONLINE TRANSFER TO        XXXXX5146",
+        "Withdrawals": "$2,132.54",
+        "Deposits": "",
+        "Balance": "$569.39",
+        "Category": ""
+    },
+    {
+        "Date": "3/19/18",
+        "Description": "POS PURCHASE          POS47797501  4306535 FARM FRESH               RICHMOND     VA",
+        "Withdrawals": "$13.87",
+        "Deposits": "",
+        "Balance": "$2,701.93",
+        "Category": ""
+    },
+    {
+        "Date": "3/19/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 COLDSTONE #20844          GLEN ALLEN  VA",
+        "Withdrawals": "$12.77",
+        "Deposits": "",
+        "Balance": "$2,715.80",
+        "Category": ""
+    },
+    {
+        "Date": "3/19/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 PANERA BREAD #600770      GLEN ALLEN  VA",
+        "Withdrawals": "$1.99",
+        "Deposits": "",
+        "Balance": "$2,728.57",
+        "Category": ""
+    },
+    {
+        "Date": "3/19/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 PANERA BREAD #600770      GLEN ALLEN  VA",
+        "Withdrawals": "$15.15",
+        "Deposits": "",
+        "Balance": "$2,730.56",
+        "Category": ""
+    },
+    {
+        "Date": "3/19/18",
+        "Description": "POS PURCHASE          POS99999999  4306536 BEDBATH&BEYOND           GLEN ALLEN   VA",
+        "Withdrawals": "$232.66",
+        "Deposits": "",
+        "Balance": "$2,745.71",
+        "Category": ""
+    },
+    {
+        "Date": "3/19/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 PETCO 2866    63528665    RICHMOND    VA",
+        "Withdrawals": "$34.74",
+        "Deposits": "",
+        "Balance": "$2,978.37",
+        "Category": ""
+    },
+    {
+        "Date": "3/19/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 CARYTOWN BOUTIQUE SE      RICHMOND    VA",
+        "Withdrawals": "$23.00",
+        "Deposits": "",
+        "Balance": "$3,013.11",
+        "Category": ""
+    },
+    {
+        "Date": "3/19/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SQ *SHOCKOE ESPRESS       RICHMOND    VA",
+        "Withdrawals": "$4.00",
+        "Deposits": "",
+        "Balance": "$3,036.11",
+        "Category": ""
+    },
+    {
+        "Date": "3/19/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 7-ELEVEN 26245            RICHMOND    VA",
+        "Withdrawals": "$2.05",
+        "Deposits": "",
+        "Balance": "$3,040.11",
+        "Category": ""
+    },
+    {
+        "Date": "3/19/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SUBWAY        03470572    RICHMOND    VA",
+        "Withdrawals": "$2.65",
+        "Deposits": "",
+        "Balance": "$3,042.16",
+        "Category": ""
+    },
+    {
+        "Date": "3/19/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SUBWAY        03470572    RICHMOND    VA",
+        "Withdrawals": "$23.76",
+        "Deposits": "",
+        "Balance": "$3,044.81",
+        "Category": ""
+    },
+    {
+        "Date": "3/19/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SUGAR & TWINE             RICHMOND    VA",
+        "Withdrawals": "$7.34",
+        "Deposits": "",
+        "Balance": "$3,068.57",
+        "Category": ""
+    },
+    {
+        "Date": "3/16/18",
+        "Description": "CHECK                  175           096671649",
+        "Withdrawals": "$90.00",
+        "Deposits": "",
+        "Balance": "$3,075.91",
+        "Category": ""
+    },
+    {
+        "Date": "3/16/18",
+        "Description": "CHECK                  174           096671650",
+        "Withdrawals": "$90.00",
+        "Deposits": "",
+        "Balance": "$3,165.91",
+        "Category": ""
+    },
+    {
+        "Date": "3/16/18",
+        "Description": "ACH CREDIT      XXXXX9268 CARMAX AUTO SUPE PAYROLL",
+        "Withdrawals": "",
+        "Deposits": "$2,976.91",
+        "Balance": "$3,255.91",
+        "Category": ""
+    },
+    {
+        "Date": "3/14/18",
+        "Description": "POS PURCHASE          POS47797501  1131703 FARM FRESH               RICHMOND     VA",
+        "Withdrawals": "$5.75",
+        "Deposits": "",
+        "Balance": "$279.00",
+        "Category": ""
+    },
+    {
+        "Date": "3/14/18",
         "Description": "ONLINE TRANSFER FROM      XXXXX5146",
         "Withdrawals": "",
-        "Deposits": "$33.00",
-        "Balance": "$1,020.10",
-        "Category": "Bank Transfer"
+        "Deposits": "$279.00",
+        "Balance": "$284.75",
+        "Category": ""
     },
     {
-        "Date": "12/1/17",
-        "Description": "ACH WEB-RECUR   1KFKY3 AMERICAN CIGAR   WEB PMTS",
-        "Withdrawals": "$1,565.57",
-        "Deposits": "",
-        "Balance": "$987.10",
-        "Category": "Utilities / Rent"
-    },
-    {
-        "Date": "12/1/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SWEET FROG 106201         RICHMOND    VA",
-        "Withdrawals": "$11.04",
-        "Deposits": "",
-        "Balance": "$2,552.67",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/1/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 GREEK ON CARY             RICHMOND    VA",
-        "Withdrawals": "$31.00",
-        "Deposits": "",
-        "Balance": "$2,563.71",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "12/1/17",
-        "Description": "ACH CREDIT      XXXXX2102AEA PAPER SOURCE     DIRECT DEP",
+        "Date": "3/13/18",
+        "Description": "FUNDS TRANSFER FROM ACCT XXXXX5146",
         "Withdrawals": "",
-        "Deposits": "$785.87",
-        "Balance": "$2,594.71",
-        "Category": "Transportation / Travel"
+        "Deposits": "$3.81",
+        "Balance": "$5.75",
+        "Category": ""
     },
     {
-        "Date": "11/30/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 JALAPENO'S MEXICAN GRI    RICHMOND    VA",
-        "Withdrawals": "$10.96",
+        "Date": "3/13/18",
+        "Description": "POS PURCHASE          POS99999999  1148900 HOBBYLOBBY 112           GLEN ALLEN   VA",
+        "Withdrawals": "$144.17",
         "Deposits": "",
-        "Balance": "$1,808.84",
-        "Category": "Food / On the Go"
+        "Balance": "$1.94",
+        "Category": ""
     },
     {
-        "Date": "11/29/17",
-        "Description": "POS PURCHASE          POS004       1080707 OLD NAVY US 61           RICHMOND     VA",
-        "Withdrawals": "$66.28",
+        "Date": "3/13/18",
+        "Description": "POS PURCHASE          POS99999999  1148899 HOBBYLOBBY 112           GLEN ALLEN   VA",
+        "Withdrawals": "$29.95",
         "Deposits": "",
-        "Balance": "$1,819.80",
-        "Category": "Personal / Home & Hygiene"
+        "Balance": "$146.11",
+        "Category": ""
     },
     {
-        "Date": "11/28/17",
-        "Description": "POS PURCHASE          POS99999999  1063389 AUTOZONE  2017           RICHMOND     VA",
-        "Withdrawals": "$172.13",
+        "Date": "3/13/18",
+        "Description": "ACH DEBIT       XXXXX7606 DOMINION ENERGY  ELEC BILL",
+        "Withdrawals": "$47.68",
         "Deposits": "",
-        "Balance": "$1,886.08",
-        "Category": "Transportation / Maintenance"
+        "Balance": "$176.06",
+        "Category": ""
     },
     {
-        "Date": "11/28/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
-        "Withdrawals": "",
-        "Deposits": "$172.13",
-        "Balance": "$2,058.21",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "11/27/17",
-        "Description": "POS PURCHASE          POS47797501  4029088 FARM FRESH               RICHMOND     VA",
-        "Withdrawals": "$51.13",
+        "Date": "3/13/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 PPLBEACHBODY ONDEMAND    XXXXX7870 CA",
+        "Withdrawals": "$39.00",
         "Deposits": "",
-        "Balance": "$1,886.08",
-        "Category": "Food / Groceries"
+        "Balance": "$223.74",
+        "Category": ""
     },
     {
-        "Date": "11/27/17",
-        "Description": "POS PURCHASE          POS47797501  3843638 FARM FRESH               RICHMOND     VA",
-        "Withdrawals": "$76.64",
+        "Date": "3/12/18",
+        "Description": "POS PURCHASE          POS47797501  4380119 FARM FRESH               RICHMOND     VA",
+        "Withdrawals": "$85.02",
         "Deposits": "",
-        "Balance": "$1,937.21",
-        "Category": "Food / Groceries"
+        "Balance": "$262.74",
+        "Category": ""
     },
     {
-        "Date": "11/27/17",
-        "Description": "POS PURCHASE          POS11273601  3843639 UPPY'S #23               RICHMOND     VA",
-        "Withdrawals": "$24.48",
-        "Deposits": "",
-        "Balance": "$2,013.85",
-        "Category": "Personal / Home & Hygiene"
-    },
-    {
-        "Date": "11/27/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 AZIZI LLC                 CHARLOTTESV VA",
-        "Withdrawals": "$9.56",
-        "Deposits": "",
-        "Balance": "$2,038.33",
-        "Category": "Uncategorized"
-    },
-    {
-        "Date": "11/27/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 MELLOW MUSHROOMCHVLLE     CHARLOTTESV VA",
-        "Withdrawals": "$26.06",
-        "Deposits": "",
-        "Balance": "$2,047.89",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "11/27/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 GRAND CAVERNS             GROTTOES    VA",
-        "Withdrawals": "$6.31",
-        "Deposits": "",
-        "Balance": "$2,073.95",
-        "Category": "Fun"
-    },
-    {
-        "Date": "11/27/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 GRAND CAVERNS             GROTTOES    VA",
+        "Date": "3/12/18",
+        "Description": "ACH WEBSINGLE  XXXXX8649 VENMO            PAYMENT",
         "Withdrawals": "$40.00",
         "Deposits": "",
-        "Balance": "$2,080.26",
-        "Category": "Fun"
+        "Balance": "$347.76",
+        "Category": ""
     },
     {
-        "Date": "11/27/17",
-        "Description": "POS PURCHASE          POS15828501  4029087 VIRGINIA OIL #           CHARLOTTESVI VA",
-        "Withdrawals": "$5.88",
+        "Date": "3/12/18",
+        "Description": "ACH WEBSINGLE  XXXXX7364 VENMO            PAYMENT",
+        "Withdrawals": "$115.00",
         "Deposits": "",
-        "Balance": "$2,120.26",
-        "Category": "Food / On the Go"
+        "Balance": "$387.76",
+        "Category": ""
     },
     {
-        "Date": "11/27/17",
+        "Date": "3/12/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 FIREBIRDS RICHMOND        RICHMOND    VA",
+        "Withdrawals": "$57.52",
+        "Deposits": "",
+        "Balance": "$502.76",
+        "Category": ""
+    },
+    {
+        "Date": "3/12/18",
+        "Description": "POS PURCHASE          POS09718210  4380120 FOR THE LOVE O           RICHMOND     VA",
+        "Withdrawals": "$12.72",
+        "Deposits": "",
+        "Balance": "$560.28",
+        "Category": ""
+    },
+    {
+        "Date": "3/12/18",
         "Description": "ONLINE TRANSFER TO        XXXXX5146",
-        "Withdrawals": "$597.92",
+        "Withdrawals": "$1,004.86",
         "Deposits": "",
-        "Balance": "$2,126.14",
-        "Category": "Bank Transfer"
+        "Balance": "$573.00",
+        "Category": ""
     },
     {
-        "Date": "11/27/17",
-        "Description": "POS PURCHASE          POS45020043  3843640 WAL-MART SUPER           RICHMAND     VA",
-        "Withdrawals": "$1.94",
+        "Date": "3/12/18",
+        "Description": "POS PURCHASE          POS18894001  4380118 PETCO 2866               RICHMOND     VA",
+        "Withdrawals": "$8.41",
         "Deposits": "",
-        "Balance": "$2,724.06",
-        "Category": "Personal / Home & Hygiene"
+        "Balance": "$1,577.86",
+        "Category": ""
     },
     {
-        "Date": "11/27/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 INSOMNIA COOKIES - RIC    RICHMOND    VA",
-        "Withdrawals": "$10.11",
-        "Deposits": "",
-        "Balance": "$2,726.00",
-        "Category": "Food / On the Go"
+        "Date": "3/12/18",
+        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
+        "Withdrawals": "",
+        "Deposits": "$155.00",
+        "Balance": "$1,586.27",
+        "Category": ""
     },
     {
-        "Date": "11/27/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 CKE*THE PIT AND THE  1    RICHMOND    VA",
-        "Withdrawals": "$16.12",
+        "Date": "3/9/18",
+        "Description": "POS PURCHASE          POS00MM7L40  1409883 7-ELEVEN                 RICHMOND     VA",
+        "Withdrawals": "$3.58",
         "Deposits": "",
-        "Balance": "$2,736.11",
-        "Category": "Food / On the Go"
+        "Balance": "$1,431.27",
+        "Category": ""
     },
     {
-        "Date": "11/27/17",
+        "Date": "3/9/18",
+        "Description": "ACH CREDIT      XXXXX2198AEA PAPER SOURCE     DIRECT DEP",
+        "Withdrawals": "",
+        "Deposits": "$732.79",
+        "Balance": "$1,434.85",
+        "Category": ""
+    },
+    {
+        "Date": "3/8/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 ADOBE SYSTEMS INC       XXXXX6687 CA",
+        "Withdrawals": "$9.99",
+        "Deposits": "",
+        "Balance": "$702.06",
+        "Category": ""
+    },
+    {
+        "Date": "3/7/18",
+        "Description": "POS PURCHASE          POS002       1173575 MICHAELS STORE           MIDLOTHIAN   VA",
+        "Withdrawals": "$22.10",
+        "Deposits": "",
+        "Balance": "$712.05",
+        "Category": ""
+    },
+    {
+        "Date": "3/7/18",
+        "Description": "POS PURCHASE          POS08994207  1173576 PETSMART # 067           CHESTERFIELD VA",
+        "Withdrawals": "$18.94",
+        "Deposits": "",
+        "Balance": "$734.15",
+        "Category": ""
+    },
+    {
+        "Date": "3/7/18",
+        "Description": "POS PURCHASE          POS99999999  1173574 TARGET T-1041            RICHMOND     VA",
+        "Withdrawals": "$15.78",
+        "Deposits": "",
+        "Balance": "$753.09",
+        "Category": ""
+    },
+    {
+        "Date": "3/7/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SQ *HAPPY EMPANADA        RICHMOND    VA",
+        "Withdrawals": "$12.80",
+        "Deposits": "",
+        "Balance": "$768.87",
+        "Category": ""
+    },
+    {
+        "Date": "3/6/18",
         "Description": "DEBIT CARD PURCHASE   XXXXX9460 REDBOX *DVD RENTAL        OAKBROOK TE IL",
         "Withdrawals": "$1.59",
         "Deposits": "",
-        "Balance": "$2,752.23",
-        "Category": "Fun"
+        "Balance": "$781.67",
+        "Category": ""
     },
     {
-        "Date": "11/27/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 NY DELI                   RICHMOND    VA",
-        "Withdrawals": "$16.00",
+        "Date": "3/5/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 CLEMENTINE                RICHMOND    VA",
+        "Withdrawals": "$14.74",
         "Deposits": "",
-        "Balance": "$2,753.82",
-        "Category": "Food / On the Go"
+        "Balance": "$783.26",
+        "Category": ""
     },
     {
-        "Date": "11/27/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
-        "Withdrawals": "",
-        "Deposits": "$25.00",
-        "Balance": "$2,769.82",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "11/27/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
-        "Withdrawals": "",
-        "Deposits": "$39.00",
-        "Balance": "$2,744.82",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "11/24/17",
-        "Description": "POS PURCHASE          POS47797501  2685455 FARM FRESH               RICHMOND     VA",
-        "Withdrawals": "$76.45",
-        "Deposits": "",
-        "Balance": "$2,705.82",
-        "Category": "Food / Groceries"
-    },
-    {
-        "Date": "11/24/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SQ *BEV'S HOMEMADE        RICHMOND    VA",
-        "Withdrawals": "$9.85",
-        "Deposits": "",
-        "Balance": "$2,782.27",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "11/24/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
-        "Withdrawals": "",
-        "Deposits": "$36.00",
-        "Balance": "$2,792.12",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "11/24/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
-        "Withdrawals": "",
-        "Deposits": "$27.00",
-        "Balance": "$2,756.12",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "11/24/17",
-        "Description": "ACH CREDIT      XXXXX9268 CARMAX AUTO SUPE PAYROLL",
-        "Withdrawals": "",
-        "Deposits": "$2,572.28",
-        "Balance": "$2,729.12",
-        "Category": "Paycheck"
-    },
-    {
-        "Date": "11/22/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 AMAZON MKTPLACE PMTS      AMZN.COM/BI WA",
-        "Withdrawals": "$15.89",
-        "Deposits": "",
-        "Balance": "$156.84",
-        "Category": "Uncategorized"
-    },
-    {
-        "Date": "11/22/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
-        "Withdrawals": "",
-        "Deposits": "$26.00",
-        "Balance": "$172.73",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "11/21/17",
-        "Description": "POS PURCHASE          POS09126387  1276055 PAPER SOURCE C           RICHMOND     VA",
-        "Withdrawals": "$26.53",
-        "Deposits": "",
-        "Balance": "$146.73",
-        "Category": "Fun"
-    },
-    {
-        "Date": "11/20/17",
-        "Description": "POS PURCHASE          POS99999999  4192900 PUBLIX SUPER M           RICHMOND     VA",
-        "Withdrawals": "$2.43",
-        "Deposits": "",
-        "Balance": "$173.26",
-        "Category": "Food / Groceries"
-    },
-    {
-        "Date": "11/20/17",
-        "Description": "POS PURCHASE          POS08997076  4192901 PETSMART # 177           RICHMOND     VA",
-        "Withdrawals": "$10.52",
-        "Deposits": "",
-        "Balance": "$175.69",
-        "Category": "Personal / Pets"
-    },
-    {
-        "Date": "11/20/17",
-        "Description": "ONLINE TRANSFER TO        XXXXX5146",
-        "Withdrawals": "$668.24",
-        "Deposits": "",
-        "Balance": "$186.21",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "11/20/17",
-        "Description": "POS PURCHASE          POS09744458  4392903 FOR THE LOVE O           RICHMOND     VA",
-        "Withdrawals": "$0.67",
-        "Deposits": "",
-        "Balance": "$854.45",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "11/20/17",
-        "Description": "POS PURCHASE          POS01050417  4392902 KROGER                   RICHMOND     VA",
-        "Withdrawals": "$95.09",
-        "Deposits": "",
-        "Balance": "$855.12",
-        "Category": "Food / Groceries"
-    },
-    {
-        "Date": "11/20/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 WAFFLE HOUSE 1246         MIDLOTHIAN  VA",
-        "Withdrawals": "$22.99",
-        "Deposits": "",
-        "Balance": "$950.21",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "11/17/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 THE DAILY KITCHEN & BA    RICHMOND    VA",
-        "Withdrawals": "$40.00",
-        "Deposits": "",
-        "Balance": "$973.20",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "11/17/17",
-        "Description": "ACH CREDIT      XXXXX1816AEA PAPER SOURCE     DIRECT DEP",
-        "Withdrawals": "",
-        "Deposits": "$668.24",
-        "Balance": "$1,013.20",
-        "Category": "Transportation / Travel"
-    },
-    {
-        "Date": "11/16/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SHELLAC NAILS AND SPA     RICHMOND    VA",
-        "Withdrawals": "$40.00",
-        "Deposits": "",
-        "Balance": "$344.96",
-        "Category": "Personal / Home & Hygiene"
-    },
-    {
-        "Date": "11/14/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 GREEK ON CARY             RICHMOND    VA",
-        "Withdrawals": "$13.52",
-        "Deposits": "",
-        "Balance": "$384.96",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "11/14/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 JIMMY JOHNS - 1741        RICHMOND    VA",
-        "Withdrawals": "$5.84",
-        "Deposits": "",
-        "Balance": "$398.48",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "11/14/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SPDPAYRICHMONDPU         XXXXX3000 VA",
-        "Withdrawals": "$31.49",
-        "Deposits": "",
-        "Balance": "$404.32",
-        "Category": "Utilities / Gas"
-    },
-    {
-        "Date": "11/14/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 EXXONMOBIL    48076574    TAYLOR      MI",
-        "Withdrawals": "$15.06",
-        "Deposits": "",
-        "Balance": "$435.81",
-        "Category": "Transportation / Gas & Fuel"
-    },
-    {
-        "Date": "11/14/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 POTBELLY - 110            DETROIT     MI",
-        "Withdrawals": "$21.24",
-        "Deposits": "",
-        "Balance": "$450.87",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "11/14/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 ILLY COFFEE - 104         DETROIT     MI",
-        "Withdrawals": "$2.75",
-        "Deposits": "",
-        "Balance": "$472.11",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "11/14/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
-        "Withdrawals": "",
-        "Deposits": "$12.00",
-        "Balance": "$474.86",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "11/13/17",
-        "Description": "POS PURCHASE          POS99999999  4181016 MEIJER # 035 1           TAYLOR       MI",
-        "Withdrawals": "$27.29",
-        "Deposits": "",
-        "Balance": "$462.86",
-        "Category": "Food / Groceries"
-    },
-    {
-        "Date": "11/13/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 WAFFLE HOUSE 1246         MIDLOTHIAN  VA",
-        "Withdrawals": "$8.00",
-        "Deposits": "",
-        "Balance": "$490.15",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "11/13/17",
-        "Description": "POS PURCHASE          POS99999999  4181015 WALGREENS STOR           DEARBORN HEI MI",
-        "Withdrawals": "$9.89",
-        "Deposits": "",
-        "Balance": "$498.15",
-        "Category": "Personal / Home & Hygiene"
-    },
-    {
-        "Date": "11/13/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 STARBUCKS STORE 02277     DEARBORN    MI",
-        "Withdrawals": "$3.45",
-        "Deposits": "",
-        "Balance": "$508.04",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "11/13/17",
-        "Description": "POS PURCHASE          POS99999999  3986240 GAMESTOP #2410           RICHMOND     VA",
-        "Withdrawals": "$63.17",
-        "Deposits": "",
-        "Balance": "$511.49",
-        "Category": "Fun"
-    },
-    {
-        "Date": "11/13/17",
-        "Description": "POS PURCHASE          POS07041305  4181017 BABIES R US #6           TAYLOR       MI",
-        "Withdrawals": "$11.91",
-        "Deposits": "",
-        "Balance": "$574.66",
-        "Category": "Giving / Gifts"
-    },
-    {
-        "Date": "11/13/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 ALCAMOS MARKET            DEARBORN    MI",
-        "Withdrawals": "$6.00",
-        "Deposits": "",
-        "Balance": "$586.57",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "11/13/17",
+        "Date": "3/5/18",
         "Description": "DEBIT CARD PURCHASE   XXXXX9460 SQ *GOATOCADO             RICHMOND    VA",
-        "Withdrawals": "$14.30",
+        "Withdrawals": "$11.00",
         "Deposits": "",
-        "Balance": "$592.57",
-        "Category": "Food / On the Go"
+        "Balance": "$798.00",
+        "Category": ""
     },
     {
-        "Date": "11/13/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 AMAZON MKTPLACE PMTS      AMZN.COM/BI WA",
-        "Withdrawals": "$5.06",
+        "Date": "3/5/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 STARBUCKS OMNI RICHMON    RICHMOND    VA",
+        "Withdrawals": "$4.74",
         "Deposits": "",
-        "Balance": "$606.87",
-        "Category": "Uncategorized"
+        "Balance": "$809.00",
+        "Category": ""
     },
     {
-        "Date": "11/13/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 BIERKELLER TAVERN AND     TAYLOR      MI",
-        "Withdrawals": "$22.12",
-        "Deposits": "",
-        "Balance": "$611.93",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "11/13/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
+        "Date": "3/5/18",
+        "Description": "ACH CREDIT      XXXXX9372 VA DEPT TAXATION VASTTAXRFD",
         "Withdrawals": "",
-        "Deposits": "$31.00",
-        "Balance": "$634.05",
-        "Category": "Bank Transfer"
+        "Deposits": "$420.00",
+        "Balance": "$813.74",
+        "Category": ""
     },
     {
-        "Date": "11/13/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
-        "Withdrawals": "",
-        "Deposits": "$68.23",
-        "Balance": "$603.05",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "11/10/17",
-        "Description": "POS PURCHASE          POS07828851  1422021 ULTA #342                ALLEN PARK   MI",
-        "Withdrawals": "$6.36",
+        "Date": "3/2/18",
+        "Description": "CHECK                  173           096262059",
+        "Withdrawals": "$90.00",
         "Deposits": "",
-        "Balance": "$534.82",
-        "Category": "Personal / Home & Hygiene"
+        "Balance": "$393.74",
+        "Category": ""
     },
     {
-        "Date": "11/10/17",
+        "Date": "3/2/18",
         "Description": "ONLINE TRANSFER TO        XXXXX5146",
-        "Withdrawals": "$2,134.05",
+        "Withdrawals": "$2,665.62",
         "Deposits": "",
-        "Balance": "$541.18",
-        "Category": "Bank Transfer"
+        "Balance": "$483.74",
+        "Category": ""
     },
     {
-        "Date": "11/10/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 GOOGLE *YouTube Videos    g.co/helppa CA",
-        "Withdrawals": "$2.99",
+        "Date": "3/2/18",
+        "Description": "POS PURCHASE          POS69465903  1442835 TRADER JOE'S #           GLEN ALLEN   VA",
+        "Withdrawals": "$35.40",
         "Deposits": "",
-        "Balance": "$2,675.23",
-        "Category": "Fun"
+        "Balance": "$3,149.36",
+        "Category": ""
     },
     {
-        "Date": "11/10/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 HUDSONNEWS  ST716         RICHMOND    VA",
-        "Withdrawals": "$2.41",
+        "Date": "3/2/18",
+        "Description": "POS PURCHASE          POS47797501  1377559 FARM FRESH               RICHMOND     VA",
+        "Withdrawals": "$17.70",
         "Deposits": "",
-        "Balance": "$2,678.22",
-        "Category": "Uncategorized"
+        "Balance": "$3,184.76",
+        "Category": ""
     },
     {
-        "Date": "11/10/17",
+        "Date": "3/2/18",
+        "Description": "POS PURCHASE          POS09744458  1442836 FOR THE LOVE O           RICHMOND     VA",
+        "Withdrawals": "$2.64",
+        "Deposits": "",
+        "Balance": "$3,202.46",
+        "Category": ""
+    },
+    {
+        "Date": "3/2/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 Etsy Inc Seller Fees      XXXXX7955 NY",
+        "Withdrawals": "$0.60",
+        "Deposits": "",
+        "Balance": "$3,205.10",
+        "Category": ""
+    },
+    {
+        "Date": "3/2/18",
         "Description": "ACH CREDIT      XXXXX9268 CARMAX AUTO SUPE PAYROLL",
         "Withdrawals": "",
-        "Deposits": "$2,572.26",
-        "Balance": "$2,680.63",
-        "Category": "Transportation / Travel"
+        "Deposits": "$3,046.06",
+        "Balance": "$3,205.70",
+        "Category": ""
     },
     {
-        "Date": "11/10/17",
+        "Date": "3/1/18",
+        "Description": "POS PURCHASE          POS47797501  1335351 FARM FRESH               RICHMOND     VA",
+        "Withdrawals": "$21.03",
+        "Deposits": "",
+        "Balance": "$159.64",
+        "Category": ""
+    },
+    {
+        "Date": "3/1/18",
+        "Description": "ACH WEB-RECUR   5VMM44 AMERICAN CIGAR   WEB PMTS",
+        "Withdrawals": "$1,604.87",
+        "Deposits": "",
+        "Balance": "$180.67",
+        "Category": ""
+    },
+    {
+        "Date": "3/1/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SOUTHERN RAILWAY TAPHO    RICHMOND    VA",
+        "Withdrawals": "$6.46",
+        "Deposits": "",
+        "Balance": "$1,785.54",
+        "Category": ""
+    },
+    {
+        "Date": "2/26/18",
+        "Description": "ONLINE TRANSFER TO        XXXXX5146",
+        "Withdrawals": "$355.48",
+        "Deposits": "",
+        "Balance": "$1,792.00",
+        "Category": ""
+    },
+    {
+        "Date": "2/26/18",
+        "Description": "POS PURCHASE          POS47797501  4166744 FARM FRESH               RICHMOND     VA",
+        "Withdrawals": "$6.88",
+        "Deposits": "",
+        "Balance": "$2,147.48",
+        "Category": ""
+    },
+    {
+        "Date": "2/26/18",
+        "Description": "POS PURCHASE          POS47797501  4166743 FARM FRESH               RICHMOND     VA",
+        "Withdrawals": "$58.64",
+        "Deposits": "",
+        "Balance": "$2,154.36",
+        "Category": ""
+    },
+    {
+        "Date": "2/26/18",
+        "Description": "POS PURCHASE          POS05363443  4369734 TSHIRT STUDIO            RICHMOND     VA",
+        "Withdrawals": "$10.48",
+        "Deposits": "",
+        "Balance": "$2,213.00",
+        "Category": ""
+    },
+    {
+        "Date": "2/26/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 CKE*CARYTOWN ENTERTA 2    RICHMOND    VA",
+        "Withdrawals": "$44.62",
+        "Deposits": "",
+        "Balance": "$2,223.48",
+        "Category": ""
+    },
+    {
+        "Date": "2/26/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 AUTOGLASSNOW #42          RICHMOND    VA",
+        "Withdrawals": "$162.45",
+        "Deposits": "",
+        "Balance": "$2,268.10",
+        "Category": ""
+    },
+    {
+        "Date": "2/26/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 JIMMY JOHNS - 2555        RICHMOND    VA",
+        "Withdrawals": "$8.85",
+        "Deposits": "",
+        "Balance": "$2,430.55",
+        "Category": ""
+    },
+    {
+        "Date": "2/26/18",
+        "Description": "POS PURCHASE          POS27181201  4166742 MALVERN BP               RICHMOND     VA",
+        "Withdrawals": "$1.49",
+        "Deposits": "",
+        "Balance": "$2,439.40",
+        "Category": ""
+    },
+    {
+        "Date": "2/26/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 HIGH POINT BARBER SHOP    RICHMOND    VA",
+        "Withdrawals": "$40.00",
+        "Deposits": "",
+        "Balance": "$2,440.89",
+        "Category": ""
+    },
+    {
+        "Date": "2/26/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 CITYPARKING INC          XXXXX3353 VA",
+        "Withdrawals": "$3.50",
+        "Deposits": "",
+        "Balance": "$2,480.89",
+        "Category": ""
+    },
+    {
+        "Date": "2/26/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SMOOTHIE KING #446        RICHMOND    VA",
+        "Withdrawals": "$14.11",
+        "Deposits": "",
+        "Balance": "$2,484.39",
+        "Category": ""
+    },
+    {
+        "Date": "2/26/18",
         "Description": "ONLINE TRANSFER FROM      XXXXX5146",
         "Withdrawals": "",
-        "Deposits": "$40.00",
-        "Balance": "$108.37",
-        "Category": "Bank Transfer"
+        "Deposits": "$9.00",
+        "Balance": "$2,498.50",
+        "Category": ""
     },
     {
-        "Date": "11/10/17",
+        "Date": "2/23/18",
+        "Description": "CHECK                  172           096113166",
+        "Withdrawals": "$90.00",
+        "Deposits": "",
+        "Balance": "$2,489.50",
+        "Category": ""
+    },
+    {
+        "Date": "2/23/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 FAT DRAGON                RICHMOND    VA",
+        "Withdrawals": "$30.49",
+        "Deposits": "",
+        "Balance": "$2,579.50",
+        "Category": ""
+    },
+    {
+        "Date": "2/23/18",
+        "Description": "ACH CREDIT      XXXXX3651AEA PAPER SOURCE     DIRECT DEP",
+        "Withdrawals": "",
+        "Deposits": "$641.61",
+        "Balance": "$2,609.99",
+        "Category": ""
+    },
+    {
+        "Date": "2/22/18",
+        "Description": "POS PURCHASE          POS47797501  1133219 FARM FRESH               RICHMOND     VA",
+        "Withdrawals": "$9.55",
+        "Deposits": "",
+        "Balance": "$1,968.38",
+        "Category": ""
+    },
+    {
+        "Date": "2/22/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 PANERA BREAD #763         MIDLOTHIAN  VA",
+        "Withdrawals": "$13.08",
+        "Deposits": "",
+        "Balance": "$1,977.93",
+        "Category": ""
+    },
+    {
+        "Date": "2/20/18",
+        "Description": "N0220 9460 PAYMENT    POS003       5112839 NETFLIX COM              LOS GATOS    CA",
+        "Withdrawals": "$10.99",
+        "Deposits": "",
+        "Balance": "$1,991.01",
+        "Category": ""
+    },
+    {
+        "Date": "2/20/18",
+        "Description": "ACH WEBSINGLE  XXXXX8420 VENMO            PAYMENT",
+        "Withdrawals": "$240.00",
+        "Deposits": "",
+        "Balance": "$2,002.00",
+        "Category": ""
+    },
+    {
+        "Date": "2/20/18",
+        "Description": "ONLINE TRANSFER TO        XXXXX5146",
+        "Withdrawals": "$941.86",
+        "Deposits": "",
+        "Balance": "$2,242.00",
+        "Category": ""
+    },
+    {
+        "Date": "2/20/18",
+        "Description": "POS PURCHASE          POS01051122  5362379 KROGER                   RICHMOND     VA",
+        "Withdrawals": "$89.29",
+        "Deposits": "",
+        "Balance": "$3,183.86",
+        "Category": ""
+    },
+    {
+        "Date": "2/20/18",
+        "Description": "POS PURCHASE          POS47797501  5362378 FARM FRESH               RICHMOND     VA",
+        "Withdrawals": "$15.43",
+        "Deposits": "",
+        "Balance": "$3,273.15",
+        "Category": ""
+    },
+    {
+        "Date": "2/20/18",
+        "Description": "POS PURCHASE          POS01050411  5362380 KROGER                   RICHMOND     VA",
+        "Withdrawals": "$5.30",
+        "Deposits": "",
+        "Balance": "$3,288.58",
+        "Category": ""
+    },
+    {
+        "Date": "2/20/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 MARY ANGELAS PIZZERIA     RICHMOND    VA",
+        "Withdrawals": "$16.74",
+        "Deposits": "",
+        "Balance": "$3,293.88",
+        "Category": ""
+    },
+    {
+        "Date": "2/20/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SUBWAY        03470572    RICHMOND    VA",
+        "Withdrawals": "$16.77",
+        "Deposits": "",
+        "Balance": "$3,310.62",
+        "Category": ""
+    },
+    {
+        "Date": "2/20/18",
+        "Description": "MOBILE DEPOSIT                       XXXXX1698",
+        "Withdrawals": "",
+        "Deposits": "$60.00",
+        "Balance": "$3,327.39",
+        "Category": ""
+    },
+    {
+        "Date": "2/20/18",
+        "Description": "ONLINE TRANSFER FROM      XXXXX5154",
+        "Withdrawals": "",
+        "Deposits": "$240.00",
+        "Balance": "$3,267.39",
+        "Category": ""
+    },
+    {
+        "Date": "2/16/18",
+        "Description": "CHECK                  171           096288350",
+        "Withdrawals": "$90.00",
+        "Deposits": "",
+        "Balance": "$3,027.39",
+        "Category": ""
+    },
+    {
+        "Date": "2/16/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 USPS PO XXXXX0125        MPOSRICHMO VA",
+        "Withdrawals": "$21.40",
+        "Deposits": "",
+        "Balance": "$3,117.39",
+        "Category": ""
+    },
+    {
+        "Date": "2/16/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 STELLA'S GROCERY          RICHMOND    VA",
+        "Withdrawals": "$2.78",
+        "Deposits": "",
+        "Balance": "$3,138.79",
+        "Category": ""
+    },
+    {
+        "Date": "2/16/18",
+        "Description": "ACH CREDIT      XXXXX9268 CARMAX AUTO SUPE PAYROLL",
+        "Withdrawals": "",
+        "Deposits": "$3,046.06",
+        "Balance": "$3,141.57",
+        "Category": ""
+    },
+    {
+        "Date": "2/15/18",
+        "Description": "POS PURCHASE          POS47797501  1196385 FARM FRESH               RICHMOND     VA",
+        "Withdrawals": "$13.46",
+        "Deposits": "",
+        "Balance": "$95.51",
+        "Category": ""
+    },
+    {
+        "Date": "2/15/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SMOOTHIE KING #446        RICHMOND    VA",
+        "Withdrawals": "$5.55",
+        "Deposits": "",
+        "Balance": "$108.97",
+        "Category": ""
+    },
+    {
+        "Date": "2/15/18",
         "Description": "ONLINE TRANSFER FROM      XXXXX5146",
         "Withdrawals": "",
-        "Deposits": "$6.00",
-        "Balance": "$68.37",
-        "Category": "Bank Transfer"
+        "Deposits": "$21.40",
+        "Balance": "$114.52",
+        "Category": ""
     },
     {
-        "Date": "11/9/17",
-        "Description": "POS PURCHASE          POS47797501  1140968 FARM FRESH               RICHMOND     VA",
-        "Withdrawals": "$15.85",
+        "Date": "2/14/18",
+        "Description": "POS PURCHASE          POS01050412  1349873 KROGER                   RICHMOND     VA",
+        "Withdrawals": "$16.86",
         "Deposits": "",
-        "Balance": "$62.37",
-        "Category": "Food / Groceries"
+        "Balance": "$93.12",
+        "Category": ""
     },
     {
-        "Date": "11/9/17",
-        "Description": "POS PURCHASE          POS00MM7L40  1194477 7-ELEVEN                 RICHMOND     VA",
-        "Withdrawals": "$7.66",
+        "Date": "2/14/18",
+        "Description": "ACH WEBSINGLE  XXXXX0078 VENMO            PAYMENT",
+        "Withdrawals": "$32.00",
         "Deposits": "",
-        "Balance": "$78.22",
-        "Category": "Food / On the Go"
+        "Balance": "$109.98",
+        "Category": ""
     },
     {
-        "Date": "11/9/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
+        "Date": "2/13/18",
+        "Description": "POS PURCHASE          POS47797501  1183967 FARM FRESH               RICHMOND     VA",
+        "Withdrawals": "$69.07",
+        "Deposits": "",
+        "Balance": "$141.98",
+        "Category": ""
+    },
+    {
+        "Date": "2/13/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 INSOMNIA COOKIES - RIC    RICHMOND    VA",
+        "Withdrawals": "$9.27",
+        "Deposits": "",
+        "Balance": "$211.05",
+        "Category": ""
+    },
+    {
+        "Date": "2/12/18",
+        "Description": "ACH WEBSINGLE  XXXXX6654 VENMO            PAYMENT",
+        "Withdrawals": "$970.00",
+        "Deposits": "",
+        "Balance": "$220.32",
+        "Category": ""
+    },
+    {
+        "Date": "2/12/18",
+        "Description": "ONLINE TRANSFER TO        XXXXX5146",
+        "Withdrawals": "$384.01",
+        "Deposits": "",
+        "Balance": "$1,190.32",
+        "Category": ""
+    },
+    {
+        "Date": "2/12/18",
+        "Description": "POS PURCHASE          POS47797501  3956436 FARM FRESH               RICHMOND     VA",
+        "Withdrawals": "$4.71",
+        "Deposits": "",
+        "Balance": "$1,574.33",
+        "Category": ""
+    },
+    {
+        "Date": "2/12/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SWEET FROG 106201         RICHMOND    VA",
+        "Withdrawals": "$3.28",
+        "Deposits": "",
+        "Balance": "$1,579.04",
+        "Category": ""
+    },
+    {
+        "Date": "2/12/18",
+        "Description": "ONLINE TRANSFER FROM      XXXXX5154",
         "Withdrawals": "",
-        "Deposits": "$16.00",
-        "Balance": "$85.88",
-        "Category": "Bank Transfer"
+        "Deposits": "$970.00",
+        "Balance": "$1,582.32",
+        "Category": ""
     },
     {
-        "Date": "11/8/17",
-        "Description": "POS PURCHASE          POS99999999  1119212 DSW SHOPS AT W           RICHMOND     VA",
-        "Withdrawals": "$11.80",
+        "Date": "2/9/18",
+        "Description": "CHECK                  170           096339569",
+        "Withdrawals": "$90.00",
         "Deposits": "",
-        "Balance": "$69.88",
-        "Category": "Personal / Clothes"
+        "Balance": "$612.32",
+        "Category": ""
     },
     {
-        "Date": "11/8/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 ADOBE PHOTOGPHY PLAN     XXXXX6687 CA",
+        "Date": "2/9/18",
+        "Description": "CHECK                  168           096339570",
+        "Withdrawals": "$90.00",
+        "Deposits": "",
+        "Balance": "$702.32",
+        "Category": ""
+    },
+    {
+        "Date": "2/9/18",
+        "Description": "POS PURCHASE          POS09126386  1354706 PAPER SOURCE C           RICHMOND     VA",
+        "Withdrawals": "$21.08",
+        "Deposits": "",
+        "Balance": "$792.32",
+        "Category": ""
+    },
+    {
+        "Date": "2/9/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 CHICK-FIL-A  #00096       RICHMOND    VA",
+        "Withdrawals": "$7.27",
+        "Deposits": "",
+        "Balance": "$813.40",
+        "Category": ""
+    },
+    {
+        "Date": "2/9/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 FIRE BURGER AND PANINI    HENRICO     VA",
+        "Withdrawals": "$12.50",
+        "Deposits": "",
+        "Balance": "$820.67",
+        "Category": ""
+    },
+    {
+        "Date": "2/9/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 ADOBE SYSTEMS INC       XXXXX6687 CA",
         "Withdrawals": "$9.99",
         "Deposits": "",
-        "Balance": "$81.68",
-        "Category": "Uncategorized"
+        "Balance": "$833.17",
+        "Category": ""
     },
     {
-        "Date": "11/7/17",
+        "Date": "2/9/18",
+        "Description": "ACH CREDIT      XXXXX6399AEA PAPER SOURCE     DIRECT DEP",
+        "Withdrawals": "",
+        "Deposits": "$590.39",
+        "Balance": "$843.16",
+        "Category": ""
+    },
+    {
+        "Date": "2/8/18",
         "Description": "ACH DEBIT       XXXXX7606 DOMINION ENERGY  ELEC BILL",
-        "Withdrawals": "$54.81",
+        "Withdrawals": "$44.08",
         "Deposits": "",
-        "Balance": "$91.67",
-        "Category": "Utilities / Electric"
-    },
-    {
-        "Date": "11/7/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
-        "Withdrawals": "",
-        "Deposits": "$55.00",
-        "Balance": "$146.48",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "11/6/17",
-        "Description": "POS PURCHASE          POS47797501  4365418 FARM FRESH               RICHMOND     VA",
-        "Withdrawals": "$56.77",
-        "Deposits": "",
-        "Balance": "$91.48",
-        "Category": "Food / Groceries"
-    },
-    {
-        "Date": "11/6/17",
-        "Description": "POS PURCHASE          POS47797501  4165934 FARM FRESH               RICHMOND     VA",
-        "Withdrawals": "$4.37",
-        "Deposits": "",
-        "Balance": "$148.25",
-        "Category": "Food / Groceries"
-    },
-    {
-        "Date": "11/6/17",
-        "Description": "ONLINE TRANSFER TO        XXXXX5146",
-        "Withdrawals": "$77.08",
-        "Deposits": "",
-        "Balance": "$152.62",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "11/6/17",
-        "Description": "ONLINE TRANSFER TO        XXXXX5146",
-        "Withdrawals": "$602.94",
-        "Deposits": "",
-        "Balance": "$229.70",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "11/6/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 REDBOX DVD RENTAL        XXXXX2693 IL",
-        "Withdrawals": "$2.13",
-        "Deposits": "",
-        "Balance": "$832.64",
-        "Category": "Fun"
-    },
-    {
-        "Date": "11/6/17",
-        "Description": "POS PURCHASE          POS005       4365417 WORLD OF MIRTH           RICHMOND     VA",
-        "Withdrawals": "$23.59",
-        "Deposits": "",
-        "Balance": "$834.77",
-        "Category": "Fun"
-    },
-    {
-        "Date": "11/6/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SQ *BEV'S HOMEMADE        RICHMOND    VA",
-        "Withdrawals": "$4.39",
-        "Deposits": "",
-        "Balance": "$858.36",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "11/6/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 THE DAILY KITCHEN & BA    RICHMOND    VA",
-        "Withdrawals": "$15.13",
-        "Deposits": "",
-        "Balance": "$862.75",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "11/6/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 CLEMENTINE                RICHMOND    VA",
-        "Withdrawals": "$28.43",
-        "Deposits": "",
-        "Balance": "$877.88",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "11/6/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
-        "Withdrawals": "",
-        "Deposits": "$3.00",
-        "Balance": "$906.31",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "11/6/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
-        "Withdrawals": "",
-        "Deposits": "$40.00",
-        "Balance": "$903.31",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "11/3/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 INSOMNIA COOKIES - RIC    RICHMOND    VA",
-        "Withdrawals": "$10.11",
-        "Deposits": "",
-        "Balance": "$863.31",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "11/3/17",
-        "Description": "ACH CREDIT      XXXXX1275AEA PAPER SOURCE     DIRECT DEP",
-        "Withdrawals": "",
-        "Deposits": "$602.94",
-        "Balance": "$873.42",
-        "Category": "Transportation / Travel"
-    },
-    {
-        "Date": "11/2/17",
-        "Description": "POS PURCHASE          POS01050912  1190408 KROGER                   RICHMOND     VA",
-        "Withdrawals": "$90.23",
-        "Deposits": "",
-        "Balance": "$270.48",
-        "Category": "Food / Groceries"
-    },
-    {
-        "Date": "11/2/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 OLD NAVY US 6180          RICHMOND    VA",
-        "Withdrawals": "$24.16",
-        "Deposits": "",
-        "Balance": "$360.71",
+        "Balance": "$252.77",
         "Category": ""
     },
     {
-        "Date": "11/2/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 PANERA BREAD #1055        RICHMOND    VA",
-        "Withdrawals": "$11.14",
+        "Date": "2/8/18",
+        "Description": "POS PURCHASE          POS69465905  1059692 TRADER JOE'S #           GLEN ALLEN   VA",
+        "Withdrawals": "$3.27",
         "Deposits": "",
-        "Balance": "$384.87",
-        "Category": "Personal / Clothes"
+        "Balance": "$296.85",
+        "Category": ""
     },
     {
-        "Date": "11/2/17",
+        "Date": "2/8/18",
+        "Description": "POS PURCHASE          POS69465905  1059693 TRADER JOE'S #           GLEN ALLEN   VA",
+        "Withdrawals": "$87.17",
+        "Deposits": "",
+        "Balance": "$300.12",
+        "Category": ""
+    },
+    {
+        "Date": "2/8/18",
+        "Description": "POS PURCHASE          POS06576179  1059694 BEST BUY #423            GLEN ALLEN   VA",
+        "Withdrawals": "$72.99",
+        "Deposits": "",
+        "Balance": "$387.29",
+        "Category": ""
+    },
+    {
+        "Date": "2/8/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 JEAN JACQUEZ BAKERY       RICHMOND    VA",
+        "Withdrawals": "$6.88",
+        "Deposits": "",
+        "Balance": "$460.28",
+        "Category": ""
+    },
+    {
+        "Date": "2/8/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 AMAZON MKTPLACE PMTS      AMZN.COM/BI WA",
+        "Withdrawals": "$52.84",
+        "Deposits": "",
+        "Balance": "$467.16",
+        "Category": ""
+    },
+    {
+        "Date": "2/8/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 NY DELI                   RICHMOND    VA",
+        "Withdrawals": "$16.00",
+        "Deposits": "",
+        "Balance": "$520.00",
+        "Category": ""
+    },
+    {
+        "Date": "2/8/18",
+        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
+        "Withdrawals": "",
+        "Deposits": "$125.00",
+        "Balance": "$536.00",
+        "Category": ""
+    },
+    {
+        "Date": "2/5/18",
+        "Description": "ONLINE TRANSFER TO        XXXXX5146",
+        "Withdrawals": "$2,446.23",
+        "Deposits": "",
+        "Balance": "$411.00",
+        "Category": ""
+    },
+    {
+        "Date": "2/5/18",
+        "Description": "POS PURCHASE          POS01050914  4200471 KROGER                   RICHMOND     VA",
+        "Withdrawals": "$23.27",
+        "Deposits": "",
+        "Balance": "$2,857.23",
+        "Category": ""
+    },
+    {
+        "Date": "2/5/18",
+        "Description": "POS PURCHASE          POS01050914  4200470 KROGER                   RICHMOND     VA",
+        "Withdrawals": "$21.29",
+        "Deposits": "",
+        "Balance": "$2,880.50",
+        "Category": ""
+    },
+    {
+        "Date": "2/5/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SQ *BEV'S HOMEMADE        RICHMOND    VA",
+        "Withdrawals": "$11.84",
+        "Deposits": "",
+        "Balance": "$2,901.79",
+        "Category": ""
+    },
+    {
+        "Date": "2/5/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 NY DELI                   RICHMOND    VA",
+        "Withdrawals": "$30.37",
+        "Deposits": "",
+        "Balance": "$2,913.63",
+        "Category": ""
+    },
+    {
+        "Date": "2/5/18",
+        "Description": "POS PURCHASE          POS09718210  4200472 FOR THE LOVE O           RICHMOND     VA",
+        "Withdrawals": "$12.06",
+        "Deposits": "",
+        "Balance": "$2,944.00",
+        "Category": ""
+    },
+    {
+        "Date": "2/2/18",
+        "Description": "CHECK                  169           096244328",
+        "Withdrawals": "$90.00",
+        "Deposits": "",
+        "Balance": "$2,956.06",
+        "Category": ""
+    },
+    {
+        "Date": "2/2/18",
+        "Description": "POS PURCHASE          POS07828000  1393501 ULTA #404                GLEN ALLEN   VA",
+        "Withdrawals": "$18.94",
+        "Deposits": "",
+        "Balance": "$3,046.06",
+        "Category": ""
+    },
+    {
+        "Date": "2/2/18",
+        "Description": "POS PURCHASE          POS69465906  1393499 TRADER JOE'S #           GLEN ALLEN   VA",
+        "Withdrawals": "$55.53",
+        "Deposits": "",
+        "Balance": "$3,065.00",
+        "Category": ""
+    },
+    {
+        "Date": "2/2/18",
+        "Description": "POS PURCHASE          POS99999999  1393500 HOBBYLOBBY 112           GLEN ALLEN   VA",
+        "Withdrawals": "$13.81",
+        "Deposits": "",
+        "Balance": "$3,120.53",
+        "Category": ""
+    },
+    {
+        "Date": "2/2/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SMOOTHIE KING #446        RICHMOND    VA",
+        "Withdrawals": "$2.08",
+        "Deposits": "",
+        "Balance": "$3,134.34",
+        "Category": ""
+    },
+    {
+        "Date": "2/2/18",
         "Description": "DEBIT CARD PURCHASE   XXXXX1923 Etsy Inc Seller Fees      XXXXX7955 NY",
-        "Withdrawals": "$1.00",
+        "Withdrawals": "$0.40",
         "Deposits": "",
-        "Balance": "$396.01",
-        "Category": "Uncategorized"
-    },
-    {
-        "Date": "11/2/17",
-        "Description": "ACH CREDIT      5P5J2AAPVWNF2 PAYPAL           TRANSFER",
-        "Withdrawals": "",
-        "Deposits": "$77.08",
-        "Balance": "$397.01",
-        "Category": "Uncategorized"
-    },
-    {
-        "Date": "11/1/17",
-        "Description": "POS PURCHASE          POS99999999  1167186 DSW SHOPS AT W           RICHMOND     VA",
-        "Withdrawals": "$121.07",
-        "Deposits": "",
-        "Balance": "$319.93",
-        "Category": "Personal / Clothes"
-    },
-    {
-        "Date": "11/1/17",
-        "Description": "ACH WEB-RECUR   Q8RMW3 AMERICAN CIGAR   WEB PMTS",
-        "Withdrawals": "$1,624.64",
-        "Deposits": "",
-        "Balance": "$441.00",
-        "Category": "Utilities / Rent"
-    },
-    {
-        "Date": "11/1/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 LITTLE MEXICO             RICHMOND    VA",
-        "Withdrawals": "$31.16",
-        "Deposits": "",
-        "Balance": "$2,065.64",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "11/1/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SMOOTHIE KING #446        RICHMOND    VA",
-        "Withdrawals": "$5.55",
-        "Deposits": "",
-        "Balance": "$2,096.80",
-        "Category": "Food / On the Go"
-    },
-    {
-        "Date": "11/1/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 STEAMGAMESCOM42595229    XXXXX2985 WA",
-        "Withdrawals": "$39.99",
-        "Deposits": "",
-        "Balance": "$2,102.35",
-        "Category": "Fun"
-    },
-    {
-        "Date": "11/1/17",
-        "Description": "POS RETURN            POS99999999  1167185 DSW SHOPS AT W           RICHMOND     VA",
-        "Withdrawals": "",
-        "Deposits": "$21.06",
-        "Balance": "$2,142.34",
-        "Category": "Uncategorized"
-    },
-    {
-        "Date": "10/31/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
-        "Withdrawals": "",
-        "Deposits": "$135.00",
-        "Balance": "$2,121.28",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "10/30/17",
-        "Description": "ACH WEBSINGLE  XXXXX1703S ALLY             ALLY PAYMT",
-        "Withdrawals": "$134.95",
-        "Deposits": "",
-        "Balance": "$1,986.28",
+        "Balance": "$3,136.42",
         "Category": ""
     },
     {
-        "Date": "10/30/17",
-        "Description": "POS PURCHASE          POS47797501  4028167 FARM FRESH               RICHMOND     VA",
-        "Withdrawals": "$40.82",
-        "Deposits": "",
-        "Balance": "$2,121.23",
-        "Category": ""
-    },
-    {
-        "Date": "10/30/17",
-        "Description": "POS PURCHASE          POS26029901  4226216 FOOD LION #029           MIDLOTHIAN   VA",
-        "Withdrawals": "$2.65",
-        "Deposits": "",
-        "Balance": "$2,162.05",
-        "Category": ""
-    },
-    {
-        "Date": "10/30/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 ESANNTHAI&SUSHI           WWW.ESANNTH VA",
-        "Withdrawals": "$11.53",
-        "Deposits": "",
-        "Balance": "$2,164.70",
-        "Category": ""
-    },
-    {
-        "Date": "10/30/17",
-        "Description": "ONLINE TRANSFER TO        XXXXX5146",
-        "Withdrawals": "$496.50",
-        "Deposits": "",
-        "Balance": "$2,176.23",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "10/30/17",
-        "Description": "POS PURCHASE          POS47797501  4028168 FARM FRESH               RICHMOND     VA",
-        "Withdrawals": "$1.73",
-        "Deposits": "",
-        "Balance": "$2,672.73",
-        "Category": ""
-    },
-    {
-        "Date": "10/30/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SUBWAY        03470572    RICHMOND    VA",
-        "Withdrawals": "$5.34",
-        "Deposits": "",
-        "Balance": "$2,674.46",
-        "Category": ""
-    },
-    {
-        "Date": "10/30/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 CKE*THE PIT AND THE  1    RICHMOND    VA",
-        "Withdrawals": "$10.02",
-        "Deposits": "",
-        "Balance": "$2,679.80",
-        "Category": ""
-    },
-    {
-        "Date": "10/30/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SMOOTHIE KING #446        RICHMOND    VA",
-        "Withdrawals": "$1.04",
-        "Deposits": "",
-        "Balance": "$2,689.82",
-        "Category": ""
-    },
-    {
-        "Date": "10/30/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SMOOTHIE KING #446        RICHMOND    VA",
-        "Withdrawals": "$5.55",
-        "Deposits": "",
-        "Balance": "$2,690.86",
-        "Category": ""
-    },
-    {
-        "Date": "10/30/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 JASON'S DELI VRS #        RICHMOND    VA",
-        "Withdrawals": "$2.21",
-        "Deposits": "",
-        "Balance": "$2,696.41",
-        "Category": ""
-    },
-    {
-        "Date": "10/30/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 JASON'S DELI VRS #        RICHMOND    VA",
-        "Withdrawals": "$21.66",
-        "Deposits": "",
-        "Balance": "$2,698.62",
-        "Category": ""
-    },
-    {
-        "Date": "10/30/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SOUTHERN RAILWAY TAPHO    XXXXX8350 VA",
-        "Withdrawals": "$3.00",
-        "Deposits": "",
-        "Balance": "$2,720.28",
-        "Category": ""
-    },
-    {
-        "Date": "10/30/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
-        "Withdrawals": "",
-        "Deposits": "$40.00",
-        "Balance": "$2,723.28",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "10/30/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
-        "Withdrawals": "",
-        "Deposits": "$28.00",
-        "Balance": "$2,683.28",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "10/27/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 PICCOLA ITALY PIZZA AN    RICHMOND    VA",
-        "Withdrawals": "$3.19",
-        "Deposits": "",
-        "Balance": "$2,655.28",
-        "Category": ""
-    },
-    {
-        "Date": "10/27/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
-        "Withdrawals": "",
-        "Deposits": "$10.46",
-        "Balance": "$2,658.47",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "10/27/17",
+        "Date": "2/2/18",
         "Description": "ACH CREDIT      XXXXX9268 CARMAX AUTO SUPE PAYROLL",
         "Withdrawals": "",
-        "Deposits": "$2,586.49",
-        "Balance": "$2,648.01",
-        "Category": "Transportation / Travel"
-    },
-    {
-        "Date": "10/26/17",
-        "Description": "POS PURCHASE          POS47797501  1188066 FARM FRESH               RICHMOND     VA",
-        "Withdrawals": "$49.34",
-        "Deposits": "",
-        "Balance": "$61.52",
+        "Deposits": "$3,046.06",
+        "Balance": "$3,136.82",
         "Category": ""
     },
     {
-        "Date": "10/26/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 JIMMY JOHNS - 1741        RICHMOND    VA",
-        "Withdrawals": "$5.84",
-        "Deposits": "",
-        "Balance": "$110.86",
-        "Category": ""
-    },
-    {
-        "Date": "10/25/17",
-        "Description": "POS PURCHASE          POS00N0U301  1142465 7-ELEVEN                 RICHMOND     VA",
-        "Withdrawals": "$2.04",
-        "Deposits": "",
-        "Balance": "$116.70",
-        "Category": ""
-    },
-    {
-        "Date": "10/25/17",
-        "Description": "POS PURCHASE          POS00002SGR  1142466 LIFEWAY CHRIST           GLEN ALLEN   VA",
-        "Withdrawals": "$35.78",
-        "Deposits": "",
-        "Balance": "$118.74",
-        "Category": ""
-    },
-    {
-        "Date": "10/25/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX1923 COPY CAT PRINTING 2       RICHMOND    VA",
-        "Withdrawals": "$10.00",
-        "Deposits": "",
-        "Balance": "$154.52",
-        "Category": ""
-    },
-    {
-        "Date": "10/25/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 MOM'S SIAM 2              RICHMOND    VA",
-        "Withdrawals": "$4.00",
-        "Deposits": "",
-        "Balance": "$164.52",
-        "Category": ""
-    },
-    {
-        "Date": "10/25/17",
-        "Description": "ACH CREDIT      5P5J2AAG2455S PAYPAL           TRANSFER",
+        "Date": "2/1/18",
+        "Description": "FUNDS TRANSFER FROM ACCT XXXXX5146",
         "Withdrawals": "",
-        "Deposits": "$28.76",
-        "Balance": "$168.52",
+        "Deposits": "$8.15",
+        "Balance": "$90.76",
         "Category": ""
     },
     {
-        "Date": "10/24/17",
-        "Description": "POS PURCHASE          POS040       1098428 MICHAELS STORE           GLEN ALLEN   VA",
-        "Withdrawals": "$29.43",
+        "Date": "2/1/18",
+        "Description": "ACH WEB-RECUR   4SDM24 AMERICAN CIGAR   WEB PMTS",
+        "Withdrawals": "$1,612.72",
         "Deposits": "",
-        "Balance": "$139.76",
+        "Balance": "$82.61",
         "Category": ""
     },
     {
-        "Date": "10/24/17",
-        "Description": "POS PURCHASE          POS09126387  1098426 PAPER SOURCE C           RICHMOND     VA",
-        "Withdrawals": "$7.32",
+        "Date": "2/1/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SQ *10                    Richmond    VA",
+        "Withdrawals": "$6.28",
         "Deposits": "",
-        "Balance": "$169.19",
+        "Balance": "$1,695.33",
         "Category": ""
     },
     {
-        "Date": "10/24/17",
-        "Description": "POS PURCHASE          POSLK301626  1098427 THE FRESH MARK           RICHMOND     VA",
-        "Withdrawals": "$21.32",
+        "Date": "2/1/18",
+        "Description": "POS PURCHASE          POS01507001  1159759 WAWA 8603                RICHMOND     VA",
+        "Withdrawals": "$1.05",
         "Deposits": "",
-        "Balance": "$176.51",
+        "Balance": "$1,701.61",
         "Category": ""
     },
     {
-        "Date": "10/24/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
-        "Withdrawals": "",
-        "Deposits": "$1.00",
-        "Balance": "$197.83",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "10/24/17",
-        "Description": "ONLINE TRANSFER FROM      XXXXX5146",
-        "Withdrawals": "",
-        "Deposits": "$4.00",
-        "Balance": "$196.83",
-        "Category": "Bank Transfer"
-    },
-    {
-        "Date": "10/23/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SWEET FROG 106201         RICHMOND    VA",
-        "Withdrawals": "$7.24",
+        "Date": "2/1/18",
+        "Description": "POS PURCHASE          POS01507001  1159758 WAWA 8603                RICHMOND     VA",
+        "Withdrawals": "$34.53",
         "Deposits": "",
-        "Balance": "$192.83",
+        "Balance": "$1,702.66",
         "Category": ""
     },
     {
-        "Date": "10/23/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 MARY ANGELAS PIZZERIA     RICHMOND    VA",
-        "Withdrawals": "$17.19",
+        "Date": "1/31/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 URBAN FARMHOUSE           RICHMOND    VA",
+        "Withdrawals": "$2.16",
         "Deposits": "",
-        "Balance": "$200.07",
+        "Balance": "$1,737.19",
         "Category": ""
     },
     {
-        "Date": "10/23/17",
+        "Date": "1/31/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 URBAN FARMHOUSE           RICHMOND    VA",
+        "Withdrawals": "$7.28",
+        "Deposits": "",
+        "Balance": "$1,739.35",
+        "Category": ""
+    },
+    {
+        "Date": "1/31/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 CITY DOGS                 RICHMOND    VA",
+        "Withdrawals": "$14.20",
+        "Deposits": "",
+        "Balance": "$1,746.63",
+        "Category": ""
+    },
+    {
+        "Date": "1/31/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 DNHGODADDYCOM           XXXXX8855 AZ",
+        "Withdrawals": "$15.17",
+        "Deposits": "",
+        "Balance": "$1,760.83",
+        "Category": ""
+    },
+    {
+        "Date": "1/31/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 CITY DOGS                 RICHMOND    VA",
+        "Withdrawals": "$9.62",
+        "Deposits": "",
+        "Balance": "$1,776.00",
+        "Category": ""
+    },
+    {
+        "Date": "1/30/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 JIMMY JOHNS - 2555        RICHMOND    VA",
+        "Withdrawals": "$10.52",
+        "Deposits": "",
+        "Balance": "$1,785.62",
+        "Category": ""
+    },
+    {
+        "Date": "1/30/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 RAISING CANES - AZ1       PHOENIX     AZ",
+        "Withdrawals": "$16.01",
+        "Deposits": "",
+        "Balance": "$1,796.14",
+        "Category": ""
+    },
+    {
+        "Date": "1/29/18",
         "Description": "ONLINE TRANSFER TO        XXXXX5146",
-        "Withdrawals": "$596.23",
+        "Withdrawals": "$426.82",
         "Deposits": "",
-        "Balance": "$217.26",
-        "Category": "Bank Transfer"
+        "Balance": "$1,812.15",
+        "Category": ""
     },
     {
-        "Date": "10/23/17",
-        "Description": "DEBIT CARD PURCHASE   XXXXX9460 JIMMY JOHNS - 2555        RICHMOND    VA",
-        "Withdrawals": "$17.47",
+        "Date": "1/29/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SQ *COLD STONE CREA       PHOENIX     AZ",
+        "Withdrawals": "$23.14",
         "Deposits": "",
-        "Balance": "$813.49",
+        "Balance": "$2,238.97",
+        "Category": ""
+    },
+    {
+        "Date": "1/29/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 CLEMENTINE                RICHMOND    VA",
+        "Withdrawals": "$12.64",
+        "Deposits": "",
+        "Balance": "$2,262.11",
+        "Category": ""
+    },
+    {
+        "Date": "1/29/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SQ *LUXOR VINTAGE CLOT    Richmond    VA",
+        "Withdrawals": "$17.90",
+        "Deposits": "",
+        "Balance": "$2,274.75",
+        "Category": ""
+    },
+    {
+        "Date": "1/29/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 STARBUCKS B/C PHL         PHILADELPHI PA",
+        "Withdrawals": "$13.87",
+        "Deposits": "",
+        "Balance": "$2,292.65",
+        "Category": ""
+    },
+    {
+        "Date": "1/29/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SMOOTHIE KING #446        RICHMOND    VA",
+        "Withdrawals": "$5.57",
+        "Deposits": "",
+        "Balance": "$2,306.52",
+        "Category": ""
+    },
+    {
+        "Date": "1/29/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 RICHMOND AIRPORT          RICHMOND    VA",
+        "Withdrawals": "$16.01",
+        "Deposits": "",
+        "Balance": "$2,312.09",
+        "Category": ""
+    },
+    {
+        "Date": "1/26/18",
+        "Description": "ACH CREDIT      XXXXX9403AEA PAPER SOURCE     DIRECT DEP",
+        "Withdrawals": "",
+        "Deposits": "$627.31",
+        "Balance": "$2,328.10",
+        "Category": ""
+    },
+    {
+        "Date": "1/25/18",
+        "Description": "POS PURCHASE          POS47797501  1096078 FARM FRESH               RICHMOND     VA",
+        "Withdrawals": "$76.53",
+        "Deposits": "",
+        "Balance": "$1,700.79",
+        "Category": ""
+    },
+    {
+        "Date": "1/25/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 THE RICHMOND ANIMAL LE    N CHESTERFL VA",
+        "Withdrawals": "$25.00",
+        "Deposits": "",
+        "Balance": "$1,777.32",
+        "Category": ""
+    },
+    {
+        "Date": "1/24/18",
+        "Description": "POS PURCHASE          POS61210584  1055841 PETVALU #5223              RICHMOND   VA",
+        "Withdrawals": "$51.80",
+        "Deposits": "",
+        "Balance": "$1,802.32",
+        "Category": ""
+    },
+    {
+        "Date": "1/24/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 ZOES -- 00204             RICHMOND    VA",
+        "Withdrawals": "$24.22",
+        "Deposits": "",
+        "Balance": "$1,854.12",
+        "Category": ""
+    },
+    {
+        "Date": "1/24/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 BOTTOMS UP PIZZA          RICHMOND    VA",
+        "Withdrawals": "$18.03",
+        "Deposits": "",
+        "Balance": "$1,878.34",
+        "Category": ""
+    },
+    {
+        "Date": "1/23/18",
+        "Description": "POS PURCHASE          POS47797501  0995856 FARM FRESH               RICHMOND     VA",
+        "Withdrawals": "$26.50",
+        "Deposits": "",
+        "Balance": "$1,896.37",
+        "Category": ""
+    },
+    {
+        "Date": "1/23/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX1923 SMOOTHIE KING #446        RICHMOND    VA",
+        "Withdrawals": "$5.55",
+        "Deposits": "",
+        "Balance": "$1,922.87",
+        "Category": ""
+    },
+    {
+        "Date": "1/23/18",
+        "Description": "DEBIT CARD PURCHASE   XXXXX9460 SWITCH ON YOUR BRAIN L    XXXXX2905 TX",
+        "Withdrawals": "$29.00",
+        "Deposits": "",
+        "Balance": "$1,928.42",
         "Category": ""
     }
 ]

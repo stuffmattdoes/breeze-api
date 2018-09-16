@@ -1,9 +1,15 @@
 'use strict';
 
+const autoCat = require('../categorize');
+const categories = require('../../data/categories.json');
 const csv = require('csvtojson');
 const fs = require('fs');
 
 function categorize(req, res, next) {
+    res.locals.transactions = res.locals.transactions.map(autoCat).map(transaction => {
+        console.log(transaction);
+        return transaction;
+    });
     return next();
 }
 
@@ -14,14 +20,11 @@ function format(req, res, next) {
         csv()
             .fromString(csvParsed)
             .then(jsonData => {
-                // dressData(jsonData);
-
                 // Remove some special characters
                 Object.keys(jsonData).forEach((transaction, i) => {
                     jsonData[i].Description = jsonData[i].Description.replace('\`', '\'');
                 });
 
-                console.log('Parsed:', jsonData);
                 res.locals.transactions = jsonData;
                 return next();
             })
