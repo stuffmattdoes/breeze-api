@@ -36,7 +36,7 @@ function categorize(transaction) {
     // #TODO make this work witih more banks than just PNC
     const channels = {
         'ACH': /^ACH (CREDIT|DEBIT|WEB\D?RECUR|WEB\D?SINGLE)?\s+[a-zA-Z0-9]+/,
-        'ATM': /^ATM (WITHDRAWAL|DEPOSIT)\sFEE?/,
+        'ATM': /^ATM (WITHDRAWAL|DEPOSIT)\s(FEE)?/,
         'CHECK': /^CHECK\s+\d+\s+\d+/,
         'DEBIT CARD PURCHASE': /^DEBIT CARD\s+(PURCHASE)?\s+X{4,5}\d{4,5}/,
         'ONLINE TRANSFER': /^ONLINE TRANSFER (TO|FROM)?\s+X+\d{4,5}/,
@@ -53,9 +53,12 @@ function categorize(transaction) {
             switch(channel) {
                 case 'CHECK':
                     nextTransaction.category = '5ac99414aed9e75be6acbb01';  // Not Categorized
-                    break;    
+                    merchant = '';
+                    break;   
+                case 'ATM': 
                 case 'ONLINE TRANSFER':
                     nextTransaction.category = '5ac9b24d3f3b4665f3e1edb5';  // Bank Transfer
+                    merchant = '';
                     break;
                 default:
                     merchant = merchant.split(match[0])[1].trim();
@@ -122,9 +125,9 @@ function categorize(transaction) {
         } else {
             nextTransaction.category = '5ac99414aed9e75be6acbb01';
         }
-    }
 
-    nextTransaction.merchant = merchant;
+        nextTransaction.merchant = merchant;
+    }
 
     return nextTransaction;
 }

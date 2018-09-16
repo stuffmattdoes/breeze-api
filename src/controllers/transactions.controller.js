@@ -9,9 +9,10 @@ function categorize(req, res, next) {
     res.locals.transactions = res.locals.transactions.map((transaction, index) => {
         transaction = autoCat(transaction);
         let cat = categories.find(cat => cat._id === transaction.category);
-
         transaction.category = cat.parentId ? [ categories.find(category => category._id === cat.parentId).name, cat.name ] : [ cat.name ];
         
+        console.log(transaction.merchant, '->', transaction.category.join(' / '));
+
         return transaction;
     });
     return next();
