@@ -53,12 +53,12 @@ function categorize(transaction) {
             switch(channel) {
                 case 'CHECK':
                     nextTransaction.category = '5ac99414aed9e75be6acbb01';  // Not Categorized
-                    merchant = '';
+                    merchant = channel;
                     break;   
                 case 'ATM': 
                 case 'ONLINE TRANSFER':
                     nextTransaction.category = '5ac9b24d3f3b4665f3e1edb5';  // Bank Transfer
-                    merchant = '';
+                    merchant = channel;
                     break;
                 default:
                     merchant = merchant.split(match[0])[1].trim();

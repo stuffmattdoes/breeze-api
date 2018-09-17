@@ -10,7 +10,7 @@ function categorize(req, res, next) {
         transaction = autoCat(transaction);
         let cat = categories.find(cat => cat._id === transaction.category);
         transaction.category = cat.parentId ? [ categories.find(category => category._id === cat.parentId).name, cat.name ] : [ cat.name ];
-        
+
         return transaction;
     });
     return next();
