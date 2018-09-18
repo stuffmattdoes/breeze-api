@@ -6,13 +6,7 @@ const csv = require('csvtojson');
 const fs = require('fs');
 
 function categorize(req, res, next) {
-    res.locals.transactions = res.locals.transactions.map((transaction, index) => {
-        transaction = autoCat(transaction);
-        let cat = categories.find(cat => cat._id === transaction.category);
-        transaction.category = cat.parentId ? [ categories.find(category => category._id === cat.parentId).name, cat.name ] : [ cat.name ];
-
-        return transaction;
-    });
+    res.locals.transactions = res.locals.transactions.map((transaction, index) => autoCat(transaction));
     return next();
 }
 

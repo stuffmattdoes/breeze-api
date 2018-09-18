@@ -52,12 +52,18 @@ function categorize(transaction) {
 
             switch(channel) {
                 case 'CHECK':
-                    nextTransaction.category = '5ac99414aed9e75be6acbb01';  // Not Categorized
+                    nextTransaction.category = {
+                        id: '5ac99414aed9e75be6acbb01',
+                        name: 'Not Categorized'
+                    };
                     merchant = channel;
                     break;   
                 case 'ATM': 
                 case 'ONLINE TRANSFER':
-                    nextTransaction.category = '5ac9b24d3f3b4665f3e1edb5';  // Bank Transfer
+                    nextTransaction.category = {
+                        id: '5ac9b24d3f3b4665f3e1edb5',
+                        name: 'Bank Transfer'
+                    };
                     merchant = channel;
                     break;
                 default:
@@ -111,7 +117,7 @@ function categorize(transaction) {
     merchant = merchant.replace(/\s(-|_)\s.*/, '').trim();
 
     // Convert words in merchant name to vectors & average words together
-    if (merchant) {
+    if (merchant && !transaction.category) {
         let mean = vectorizePhrase(merchant);
         
         // if (merchant === '') {
@@ -128,9 +134,15 @@ function categorize(transaction) {
                 .sort((a, b) => a[2] > b[2] ? 1 : -1)
                 .reverse()[0];
 
-            nextTransaction.category = categorize[1]._id;
+            nextTransaction.category = {
+                id: categorize[1].id,
+                name: categorize[1].name
+            };
         } else {
-            nextTransaction.category = '5ac99414aed9e75be6acbb01';
+            nextTransaction.category = {
+                id: '5ac99414aed9e75be6acbb01',
+                name: 'Not Categorized'
+            };
         }
 
         nextTransaction.merchant = merchant;
