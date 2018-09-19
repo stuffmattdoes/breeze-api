@@ -4,9 +4,15 @@ const autoCat = require('../categorize');
 const categories = require('../../data/categories.json');
 const csv = require('csvtojson');
 const fs = require('fs');
+const uuidv1 = require('uuid/v1');
 
 function categorize(req, res, next) {
-    res.locals.transactions = res.locals.transactions.map((transaction, index) => autoCat(transaction));
+    res.locals.transactions = res.locals.transactions.map((transaction, index) => {
+        transaction = autoCat(transaction);
+        transaction.id = uuidv1();
+        return transaction;
+    });
+    
     return next();
 }
 

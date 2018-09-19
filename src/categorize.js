@@ -52,18 +52,12 @@ function categorize(transaction) {
 
             switch(channel) {
                 case 'CHECK':
-                    nextTransaction.category = {
-                        id: '5ac99414aed9e75be6acbb01',
-                        name: 'Not Categorized'
-                    };
+                    nextTransaction.category = '5ac99414aed9e75be6acbb01';
                     merchant = channel;
                     break;   
                 case 'ATM': 
                 case 'ONLINE TRANSFER':
-                    nextTransaction.category = {
-                        id: '5ac9b24d3f3b4665f3e1edb5',
-                        name: 'Bank Transfer'
-                    };
+                    nextTransaction.category = '5ac9b24d3f3b4665f3e1edb5';
                     merchant = channel;
                     break;
                 default:
@@ -134,15 +128,9 @@ function categorize(transaction) {
                 .sort((a, b) => a[2] > b[2] ? 1 : -1)
                 .reverse()[0];
 
-            nextTransaction.category = {
-                id: categorize[1].id,
-                name: categorize[1].name
-            };
+            nextTransaction.category = categorize[1].id
         } else {
-            nextTransaction.category = {
-                id: '5ac99414aed9e75be6acbb01',
-                name: 'Not Categorized'
-            };
+            nextTransaction.category = '5ac99414aed9e75be6acbb01';
         }
 
         nextTransaction.merchant = merchant;
