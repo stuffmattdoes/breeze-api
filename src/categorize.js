@@ -25,6 +25,7 @@ function categoryAssign(transaction) {
         currency: 'USD',
         date: transaction.date,
         descriptor: transaction.descriptor,
+        id: transaction.id,
         location: {
             city: null,
             lat: null,

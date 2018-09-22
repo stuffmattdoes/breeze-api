@@ -6,6 +6,7 @@ const csv = require('csvtojson');
 const fs = require('fs');
 const multer = require('multer');
 const uuidv1 = require('uuid/v1');
+const uuidv4 = require('uuid/v4');
 
 function categorize(req, res, next) {
     res.locals.transactions = res.locals.transactions.map(autoCat);
@@ -23,7 +24,7 @@ function formatCSV(req, res, next) {
                 // Map our CSV data to a more uniform format
                 let transactions = jsonData.map(transaction => ({
                     amount: parseFloat((transaction.Deposits || '-' + transaction.Withdrawals).replace(/\$/, '')),
-                    id: uuidv1(),
+                    id: uuidv4(),
                     date: transaction.Date,
                     descriptor: transaction.Description.replace('\`', '\'').replace(/\s+/g, ' ')
                 }));
