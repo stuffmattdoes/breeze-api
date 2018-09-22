@@ -4,6 +4,7 @@ const autoCat = require('../categorize');
 const categories = require('../../data/categories.json');
 const csv = require('csvtojson');
 const fs = require('fs');
+const multer = require('multer');
 const uuidv1 = require('uuid/v1');
 
 function categorize(req, res, next) {
@@ -36,7 +37,16 @@ function format(req, res, next) {
 }
 
 function parse(req, res, next) {
-    return next();
+    const contentType = req.headers['content-type'];
+
+    if (contentType.indexOf('multipart/form-data') > -1) {
+        console.log('CSV');
+        return multer({ dest: 'tmp/' }).single('transactions_csv')(req, res, next);
+    } else if (contentType.indexOf('application/json') > -1) {
+        console.log('JSON');
+        res.locals.transations = req.body;
+        return categorize(req, res, next);
+    }
 }
 
 function update(req, res, next) {
