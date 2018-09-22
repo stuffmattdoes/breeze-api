@@ -11,12 +11,17 @@ router.route('/')
     // Controller should detect if "category" value of transaction is empty/updated. If so, apply learning algs
     // Controller should also detect if single transaction or array of transactions, and transform accordingly
     .post(transactionsController.parse, transactionsController.format, transactionsController.categorize, (req, res) => {
-        fs.unlink(req.file.path, (err) => {
-            if (err) throw err;
-            
+        if (req.file) {
+            fs.unlink(req.file.path, (err) => {
+                if (err) throw err;
+                
+                res.status(200);
+                return res.json( res.locals.transactions );
+              });
+        } else {
             res.status(200);
-            res.json( res.locals.transactions );
-          });
+            return res.json( res.locals.transactions );
+        }
     })
     .put(transactionsController.update, (req, res) => {
         res.status(200);

@@ -4,13 +4,27 @@ const locations = require('../data/uscitiesv1.4.json');
 const wordVecs = require('../data/glove.demo.json');
 
 function categorize(transaction) {
+    if (transaction.category) {
+        return categoryLearn(transaction);
+    } else {
+        return categoryAssign(transaction);
+    }
+}
+
+function categoryLearn(transaction) {
+    console.log('Learned!');
+    return transaction;
+}
+
+function categoryAssign(transaction) {
+    console.log('Assigned!');
     let nextTransaction = {
-        amount: null,
+        amount: transaction.amount,
         category: null,
         channel: null,
         currency: 'USD',
-        date: transaction.Date,
-        descriptor: transaction.Description,
+        date: transaction.date,
+        descriptor: transaction.descriptor,
         location: {
             city: null,
             lat: null,
@@ -25,12 +39,8 @@ function categorize(transaction) {
 
 
     // Gather a few data points
-    let amount = parseFloat((transaction.Deposits || '-' + transaction.Withdrawals).replace(/\$/, ''));
-    let descriptor = transaction.Description.replace(/\s+/g, ' ');
-    let state = descriptor.slice(-3).match(/\s{1}\D{2}/g);
-    let merchant = descriptor.toUpperCase();
-
-    nextTransaction.amount = amount;
+    let state = nextTransaction.descriptor.slice(-3).match(/\s{1}\D{2}/g);
+    let merchant = nextTransaction.descriptor.toUpperCase();
 
     // Extract Channel based on specific keywords
     // #TODO make this work witih more banks than just PNC
@@ -45,7 +55,7 @@ function categorize(transaction) {
 
     // Extract channel
     Object.keys(channels).forEach((channel, i) => {
-        let match = descriptor.match(channels[channel]);
+        let match = nextTransaction.descriptor.match(channels[channel]);
         
         if (match) {
             nextTransaction.channel = channel;
@@ -114,17 +124,10 @@ function categorize(transaction) {
     if (merchant && !transaction.category) {
         let mean = vectorizePhrase(merchant);
         
-        // if (merchant === '') {
-        //     console.log('NOPE');
-        // }
-        
         // Assess the cosine similarity between our merchant vector and category vectors
         if (mean) {
             let categorize = categories
-                .map((category, i) => {
-                    // console.log(i, category);
-                    return [ merchant, category, similarity(mean, category.vex) ];
-                })
+                .map((category, i) => [ merchant, category, similarity(mean, category.vex) ])
                 .sort((a, b) => a[2] > b[2] ? 1 : -1)
                 .reverse()[0];
 
