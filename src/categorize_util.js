@@ -17,7 +17,7 @@ const wordVecsData = __dirname + '/../data/input/glove.6B.50d.txt';
 const categories = require('../data/categories.json');
 const locations = require('../data/uscitiesv1.4.json');
 // const transactions = require('../data/transactions_1.json');
-// const wordVecs = require('../data/glove.json');
+const wordVecs = require('../data/glove.json');
 
 function formatCategories() {
     let catVecs = categories.map(cat => ({ ...cat, vex: vectorizePhrase(cat.name) }));
@@ -303,10 +303,10 @@ function similarity(a, b) {
     return dotproduct(a, b) / norm2(a) / norm2(b);
 }
 
-// formatCategories();
+formatCategories();
 // formatQFXData(data_2);
 // formatCSVData(data_1);
 // formatCityData(locationFile);
 // formatCityData2(locationFile2);
-formatWordVecs(wordVecsData);
+// formatWordVecs(wordVecsData);
 // dressData();
