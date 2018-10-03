@@ -9,13 +9,15 @@ const data_2 = __dirname + '/../data/input/transactions_debit_2.csv';
 const data_3 = __dirname + '/../data/input/transactions_debit.QFX';
 const locationFile = __dirname + '/../data/input/2017_Gaz_place_national.txt';
 const locationFile2 = __dirname +  '/../data/input/uscitiesv1.4.csv';
-const wordVecsData = __dirname + '/../data/input/glove.demo.txt';
+// const wordVecsData = __dirname + '/../data/input/glove.demo.txt';
+const wordVecsData = __dirname + '/../data/input/glove.6B.50d.txt';
+// const wordVecsData = __dirname + '/../data/input/glove.42B.300d.txt';
 
 // Formatted data
 const categories = require('../data/categories.json');
 const locations = require('../data/uscitiesv1.4.json');
 // const transactions = require('../data/transactions_1.json');
-const wordVecs = require('../data/glove.demo.json');
+// const wordVecs = require('../data/glove.json');
 
 function formatCategories() {
     let catVecs = categories.map(cat => ({ ...cat, vex: vectorizePhrase(cat.name) }));
@@ -108,7 +110,7 @@ function formatWordVecs(wordVecs) {
     // let wv = [];
     let wv = {};
     
-    fs.readFile('./data/input/glove.demo.txt', 'UTF-8', (err, vecs) => {
+    fs.readFile(wordVecs, 'UTF-8', (err, vecs) => {
         vecs.trim().split(/[\r\n]/).forEach(vec => {
             let vectors = vec.split(/\s+/);
             let word = vectors.shift();
@@ -118,7 +120,7 @@ function formatWordVecs(wordVecs) {
             // wv.push({ [word]: vectors });
         });
 
-        fs.writeFile('./data/glove.json', JSON.stringify(wv, null, 4), null, err => {
+        fs.writeFile('./data/glove.json', JSON.stringify(wv), null, err => {
             if (err) throw err;
             console.log('GloVe -> JSON data has been saved!');
         })
@@ -301,10 +303,10 @@ function similarity(a, b) {
     return dotproduct(a, b) / norm2(a) / norm2(b);
 }
 
-formatCategories();
+// formatCategories();
 // formatQFXData(data_2);
 // formatCSVData(data_1);
 // formatCityData(locationFile);
 // formatCityData2(locationFile2);
-// formatWordVecs(wordVecsData);
+formatWordVecs(wordVecsData);
 // dressData();

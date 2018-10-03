@@ -17,7 +17,7 @@ router.route('/')
                 
                 res.status(200);
                 return res.json( res.locals.transactions );
-              });
+            });
         } else {
             res.status(200);
             return res.json( res.locals.transactions );

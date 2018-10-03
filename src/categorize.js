@@ -1,7 +1,7 @@
 // Data
 const categories = require('../data/categories.json');
 const locations = require('../data/uscitiesv1.4.json');
-const wordVecs = require('../data/glove.demo.json');
+const wordVecs = require('../data/glove.json');
 
 function categorize(transaction) {
     if (transaction.category) {
