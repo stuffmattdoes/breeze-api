@@ -1,5 +1,5 @@
 // Data
-const categories = require('../data/categories.json');
+const categories = require('../data/categories_full.json');
 const locations = require('../data/uscitiesv1.4.json');
 const wordVecs = require('../data/glove.json');
 
@@ -17,7 +17,6 @@ function categoryLearn(transaction) {
 }
 
 function categoryAssign(transaction) {
-    console.log('Assigned!');
     let nextTransaction = {
         amount: transaction.amount,
         category: null,
@@ -40,7 +39,7 @@ function categoryAssign(transaction) {
 
 
     // Gather a few data points
-    let state = nextTransaction.descriptor.slice(-3).match(/\s{1}\D{2}/g);
+    let state = nextTransaction.descriptor.slice(-3).match(/\s\D{2}/g);
     let merchant = nextTransaction.descriptor.toUpperCase();
 
     // Extract Channel based on specific keywords
@@ -123,16 +122,23 @@ function categoryAssign(transaction) {
 
     // Convert words in merchant name to vectors & average words together
     if (merchant && !transaction.category) {
-        let mean = vectorizePhrase(merchant);
+        let mean = vectorizePhraseMean(getWordEmbeddings(merchant));
         
+        // 
         // Assess the cosine similarity between our merchant vector and category vectors
         if (mean) {
             let categorize = categories
-                .map((category, i) => [ merchant, category, similarity(mean, category.vex) ])
-                .sort((a, b) => a[2] > b[2] ? 1 : -1)
+                .map((category, i) => {
+                    return {
+                        category,
+                        merchant, 
+                        similarity: similarity(mean, category.vex)
+                    }
+                })
+                .sort((a, b) => a.similarity > b.similarity ? 1 : a.similarity < b.similarity ? -1 : 0)
                 .reverse()[0];
 
-            nextTransaction.category = categorize[1].id
+            nextTransaction.category = categorize.category.id
         } else {
             nextTransaction.category = '5ac99414aed9e75be6acbb01';
         }
@@ -140,18 +146,17 @@ function categoryAssign(transaction) {
         nextTransaction.merchant = merchant;
     }
 
+    console.log('Assigned!');
     return nextTransaction;
 }
 
-function vectorizePhrase(phrase) {
+function getWordEmbeddings(phrase) {
     let tokens = phrase.toLowerCase().split(/\s+/);
-    let count = 0;
 
-    let tkns = tokens
+    return tokens
         .map(token => wordVecs[token])
         .filter(wordVec => wordVec !== undefined)
         .reduce((acc, val, i, arr) => {
-            count = i + 1;
             // if (i === 0) return acc;
 
             for (let j = 0; j < acc.length; j++) {
@@ -160,12 +165,10 @@ function vectorizePhrase(phrase) {
 
             return acc || [];
         }, new Array(50).fill(0));
+}
 
-    if (tkns) {
-        tkns = tkns.map((wordVec, i, arr) => wordVec /= count);
-    }
-
-    return tkns;
+function vectorizePhraseMean(tokens) {
+    return tokens.map(wordVec => wordVec /= tokens.length);
 }
 
 function dotproduct(a, b) {
